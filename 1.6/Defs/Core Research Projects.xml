@@ -12,6 +12,10 @@
 		<tags>
 			<li>ClassicStart</li>
 		</tags>
+		<prerequisites>
+		  <li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		  <li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
+		</prerequisites>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -54,6 +58,9 @@
 		<tags>
 			<li>ClassicStart</li>
 		</tags>
+		<prerequisites>
+		  <li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -155,6 +162,23 @@
 		<prerequisites>
 			<li>Ferny_Tables</li>
 		</prerequisites>
+	</ResearchProjectDef>
+
+
+	<ResearchProjectDef>
+		<defName>Ferny_Bridge</defName>
+		<label>Bridge</label>
+		<description>Build simple bridges over shallow water and unstable ground.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Construction</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
 	</ResearchProjectDef>
 
 </Defs>

@@ -11,11 +11,13 @@
 		<li IfModActive="zylle.clocks">1.6/Mods and Shit/Clocks</li>
 		<li IfModActive="Van.DACrypts">1.6/Mods and Shit/Dark Ages CAT</li>
 		<li IfModActive="DSP.HalituisAmaricanous">1.6/Mods and Shit/Dune Style</li>
+		<li IfModActive="alt4s.Deck2">1.6/Mods and Shit/Deck 2</li>
 		<li IfModActive="erin.decorations">1.6/Mods and Shit/Erin Decorations</li>
 		<li IfModActive="Erin.JapaneseFurniture">1.6/Mods and Shit/Erin Japanese Furniture</li>
 		<li IfModActiveAll="Erin.JapaneseFurniture,Meltup.PolyamoryBeds.Vanilla">1.6/Mods and Shit/Erin Japanese Furniture + Polyamory Beds</li>
 		<li IfModActive="pphhyy.GuldenNew">1.6/Mods and Shit/Gulden Biome</li>
 		<li IfModActive="Ludeon.Rimworld.Ideology">1.6/Mods and Shit/Ideology</li>
+		<li IfModActive="Ludeon.RimWorld.Odyssey">1.6/Mods and Shit/Odyssey</li>
 		<li IfModActive="icepickgma.invisibledisplaycase">1.6/Mods and Shit/Invisible Display Case</li>
 		<li IfModActive="lm.lustechcamostyles">1.6/Mods and Shit/LusTech Modern Camo Styles</li>
 		<li IfModActive="nightmare.museums">1.6/Mods and Shit/Museums</li>

@@ -9,6 +9,27 @@
 			</researchPrerequisites>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="Seat_Bench"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="Seat_Bench"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_Chair</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="Seat_Bench"]</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_Chair</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[@Name="VFE_ErgonomicBedBase"]/researchPrerequisites</xpath>
