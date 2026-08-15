@@ -384,6 +384,27 @@
                 </Operation>
 
 
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="Stool"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Stool"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_Chair</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="Stool"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_Chair</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+
+
 
 <!-- Hospital bed cloth cost -->
                 <Operation Class="PatchOperationConditional">
@@ -481,5 +502,53 @@
     </value>
   </nomatch>
 </Operation>
+
+
+<!-- Ensure Game-of-Ur project follows the tables chain even if another mod supplies the project def -->
+<Operation Class="PatchOperationConditional">
+  <xpath>/Defs/ResearchProjectDef[defName="Ferny_GameOfUr"]/prerequisites</xpath>
+  <match Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="Ferny_GameOfUr"]/prerequisites</xpath>
+    <value>
+      <prerequisites>
+        <li>Ferny_Tables</li>
+        <li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+      </prerequisites>
+    </value>
+  </match>
+  <nomatch Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName="Ferny_GameOfUr"]</xpath>
+    <value>
+      <prerequisites>
+        <li>Ferny_Tables</li>
+        <li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+      </prerequisites>
+    </value>
+  </nomatch>
+</Operation>
+
+
+
+<!-- VFE Classical crafting bench follows the tables chain -->
+<Operation Class="PatchOperationConditional" MayRequire="oskarpotocki.vfe.classical">
+  <xpath>/Defs/ThingDef[defName="VFEC_CraftingBench"]/researchPrerequisites</xpath>
+  <match Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VFEC_CraftingBench"]/researchPrerequisites</xpath>
+    <value>
+      <researchPrerequisites Inherit="False">
+        <li>Ferny_Tables</li>
+      </researchPrerequisites>
+    </value>
+  </match>
+  <nomatch Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="VFEC_CraftingBench"]</xpath>
+    <value>
+      <researchPrerequisites Inherit="False">
+        <li>Ferny_Tables</li>
+      </researchPrerequisites>
+    </value>
+  </nomatch>
+</Operation>
+
 
 </Patch>

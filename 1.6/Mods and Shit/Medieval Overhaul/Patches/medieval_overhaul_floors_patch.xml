@@ -1,0 +1,1599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_DarkWoodPlankFloor"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_DarkWoodPlankFloor"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_DarkWoodPlankFloor"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_EarthenFloor"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_EarthenFloor"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_EarthenFloor"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CheckeredLysStar_Blue"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CheckeredLysStar_Blue"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CheckeredLysStar_Blue"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CheckeredLysStar_Brown"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CheckeredLysStar_Brown"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CheckeredLysStar_Brown"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CheckeredLysStar_Green"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CheckeredLysStar_Green"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CheckeredLysStar_Green"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CheckeredLysStar_Red"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CheckeredLysStar_Red"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CheckeredLysStar_Red"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_Black"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_Black"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_Black"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_Blue"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_Blue"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_Blue"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_Brown"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_Brown"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_Brown"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_Green"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_Green"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_Green"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_Red"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_Red"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_Red"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_White"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_White"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CircleLys_White"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Clay"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Clay"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Clay"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Granite"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Granite"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Granite"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Limestone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Limestone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Limestone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Marble"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Marble"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Marble"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Sandstone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Sandstone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Sandstone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Slate"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Slate"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_CobbleStone_Slate"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Clay"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Clay"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Clay"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Granite"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Granite"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Granite"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Limestone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Limestone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Limestone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Marble"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Marble"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Marble"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Sandstone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Sandstone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Sandstone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Slate"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Slate"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Cobblestone_Slate"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_Black"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_Black"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_Black"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_Blue"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_Blue"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_Blue"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_Brown"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_Brown"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_Brown"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_Green"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_Green"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_Green"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_Red"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_Red"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_Red"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_White"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_White"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_DiamondLys_White"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Clay"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Clay"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Clay"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Granite"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Granite"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Granite"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Limestone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Limestone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Limestone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Marble"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Marble"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Marble"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Sandstone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Sandstone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Sandstone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Slate"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Slate"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Herringbone_Slate"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_Black"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_Black"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_Black"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_Blue"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_Blue"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_Blue"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_Brown"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_Brown"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_Brown"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_Green"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_Green"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_Green"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_Red"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_Red"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_Red"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_White"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_White"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Lys_White"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Clay"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Clay"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Clay"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Granite"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Granite"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Granite"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Limestone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Limestone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Limestone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Marble"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Marble"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Marble"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Sandstone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Sandstone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Sandstone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Slate"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Slate"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RuinedStoneTile_Slate"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RusticWoodFloor_Birch"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RusticWoodFloor_Birch"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RusticWoodFloor_Birch"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RusticWoodFloor_DarkWood"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RusticWoodFloor_DarkWood"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RusticWoodFloor_DarkWood"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RusticWoodFloor_Mahogany"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RusticWoodFloor_Mahogany"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RusticWoodFloor_Mahogany"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RusticWoodFloor_Walnut"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RusticWoodFloor_Walnut"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RusticWoodFloor_Walnut"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RusticWoodFloor_Wood"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RusticWoodFloor_Wood"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_RusticWoodFloor_Wood"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Soil"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Soil"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Soil"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Clay"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Clay"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Clay"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Granite"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Granite"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Granite"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Limestone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Limestone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Limestone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Marble"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Marble"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Marble"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Sandstone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Sandstone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Sandstone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Slate"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Slate"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Versailles_Slate"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Clay"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Clay"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Clay"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Granite"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Granite"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Granite"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Limestone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Limestone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Limestone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Marble"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Marble"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Marble"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Sandstone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Sandstone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Sandstone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Slate"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Slate"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="DankPyon_Floor_Windmill_Slate"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="IronTile"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="IronTile"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Smithing</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="IronTile"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Smithing</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+		</operations>
+	</Operation>
+</Patch>

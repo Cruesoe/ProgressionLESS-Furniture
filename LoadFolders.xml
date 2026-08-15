@@ -15,6 +15,7 @@
 		<li IfModActive="erin.decorations">1.6/Mods and Shit/Erin Decorations</li>
 		<li IfModActive="Erin.JapaneseFurniture">1.6/Mods and Shit/Erin Japanese Furniture</li>
 		<li IfModActiveAll="Erin.JapaneseFurniture,Meltup.PolyamoryBeds.Vanilla">1.6/Mods and Shit/Erin Japanese Furniture + Polyamory Beds</li>
+		<li IfModActive="GM.Nautian.Style">1.6/Mods and Shit/Gerrymon Nautian Style</li>
 		<li IfModActive="pphhyy.GuldenNew">1.6/Mods and Shit/Gulden Biome</li>
 		<li IfModActive="Ludeon.Rimworld.Ideology">1.6/Mods and Shit/Ideology</li>
 		<li IfModActive="Ludeon.RimWorld.Odyssey">1.6/Mods and Shit/Odyssey</li>
@@ -41,8 +42,12 @@
 		<li IfModActive="farxmai2.vanillafurnitureexpandedpack">1.6/Mods and Shit/VE Furniture Additional Pack</li>
 		<li IfModActive="VanillaExpanded.VGeneticsE">1.6/Mods and Shit/VE Genetics</li>
 		<li IfModActiveAll="VanillaExpanded.VGeneticsE,VanillaExpanded.VFEArt">1.6/Mods and Shit/VE Genetics + VFE Art</li>
+		<li IfModActive="Neronix17.Outland.MoreFloors">1.6/Mods and Shit/Outland More Floors</li>
+		<li IfModActive="ks.flooringfloors">1.6/Mods and Shit/Flooring Floors</li>
 		<li IfModActive="vanillaexpanded.vfearchitect">1.6/Mods and Shit/VFE Architect</li>
 		<li IfModActive="VanillaExpanded.VFEArt">1.6/Mods and Shit/VFE Art</li>
+		<li IfModActive="oracle.miscellania">1.6/Mods and Shit/Oracle Miscellania</li>
+		<li IfModActiveAll="oracle.miscellania,Ludeon.RimWorld.Royalty">1.6/Mods and Shit/Oracle Miscellania + Royalty</li>
 		<li IfModActive="oskarpotocki.vanillafactionsexpanded.settlersmodule">1.6/Mods and Shit/VFE Settlers</li>
 		<li IfModActive="VanillaExpanded.VFESpacer">1.6/Mods and Shit/VFE Spacer</li>
 		<li IfModActive="cixwow.vfespaceraddon">1.6/Mods and Shit/VFE Spacer Addon</li>

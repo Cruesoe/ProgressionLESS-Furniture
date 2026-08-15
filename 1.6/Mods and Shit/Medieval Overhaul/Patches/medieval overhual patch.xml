@@ -1188,4 +1188,28 @@
 
 
 
+
+<!-- Trestle follows the tables chain -->
+	<Operation Class="PatchOperationConditional" MayRequire="DankPyon.Medieval.Overhaul">
+		<xpath>/Defs/ResearchProjectDef[defName="DankPyon_Lumber"]/prerequisites/li[text()="Ferny_Tables"]</xpath>
+		<nomatch Class="PatchOperationConditional">
+			<xpath>/Defs/ResearchProjectDef[defName="DankPyon_Lumber"]/prerequisites</xpath>
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="DankPyon_Lumber"]/prerequisites</xpath>
+				<value>
+					<li>Ferny_Tables</li>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>/Defs/ResearchProjectDef[defName="DankPyon_Lumber"]</xpath>
+				<value>
+					<prerequisites>
+						<li>Ferny_Tables</li>
+					</prerequisites>
+				</value>
+			</nomatch>
+		</nomatch>
+	</Operation>
+
+
 </Patch>

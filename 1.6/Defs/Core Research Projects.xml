@@ -174,6 +174,23 @@
 		<researchViewX>27</researchViewX>
 		<researchViewY>5.00</researchViewY>
 		<prerequisites>
+			<li>Ferny_Floors</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+
+
+	<ResearchProjectDef>
+		<defName>Ferny_Floors</defName>
+		<label>Floors</label>
+		<description>Build finished floors to improve rooms and keep interiors clean.</description>
+		<baseCost>200</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>5.50</researchViewY>
+		<prerequisites>
 			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Construction</li>
 		</prerequisites>
 		<tags>
