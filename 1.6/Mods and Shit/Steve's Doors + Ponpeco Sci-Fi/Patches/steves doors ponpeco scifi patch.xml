@@ -7,6 +7,7 @@
             <value>
                 <researchPrerequisites>
                     <li>Ferny_SpacerDoors</li>
+                    <li>MicroelectronicsBasics</li>
                 </researchPrerequisites>
             </value>
         </match>
@@ -15,6 +16,7 @@
             <value>
                 <researchPrerequisites>
                     <li>Ferny_SpacerDoors</li>
+                    <li>MicroelectronicsBasics</li>
                 </researchPrerequisites>
             </value>
         </nomatch>

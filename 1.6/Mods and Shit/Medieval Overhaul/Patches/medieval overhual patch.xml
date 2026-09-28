@@ -77,7 +77,7 @@
 			<xpath>/Defs/ThingDef[defName="DankPyon_BedWicker"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_WickerBeds</li>
+					<li>Ferny_Bedroll</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -85,7 +85,7 @@
 			<xpath>/Defs/ThingDef[defName="DankPyon_BedWicker"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_WickerBeds</li>
+					<li>Ferny_Bedroll</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -97,7 +97,7 @@
 			<xpath>/Defs/ThingDef[defName="DankPyon_BedWickerDouble"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_WickerBeds</li>
+					<li>Ferny_Bedroll</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -105,7 +105,7 @@
 			<xpath>/Defs/ThingDef[defName="DankPyon_BedWickerDouble"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_WickerBeds</li>
+					<li>Ferny_Bedroll</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -117,7 +117,7 @@
 			<xpath>/Defs/ThingDef[defName="DankPyon_StrawBed"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_StrawBeds</li>
+					<li>Ferny_Bedroll</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -125,7 +125,7 @@
 			<xpath>/Defs/ThingDef[defName="DankPyon_StrawBed"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_StrawBeds</li>
+					<li>Ferny_Bedroll</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -137,7 +137,7 @@
 			<xpath>/Defs/ThingDef[defName="DankPyon_StrawBedDouble"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_StrawBeds</li>
+					<li>Ferny_Bedroll</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -145,7 +145,7 @@
 			<xpath>/Defs/ThingDef[defName="DankPyon_StrawBedDouble"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_StrawBeds</li>
+					<li>Ferny_Bedroll</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -157,7 +157,7 @@
 			<xpath>/Defs/ResearchProjectDef[defName="Ferny_ClothBeds"]/prerequisites</xpath>
 			<value>
 				<prerequisites>
-					<li>Ferny_StrawBeds</li>
+					<li>Ferny_Bedroll</li>
 				</prerequisites>
 			</value>
 		</match>
@@ -165,7 +165,7 @@
 			<xpath>/Defs/ResearchProjectDef[defName="Ferny_ClothBeds"]</xpath>
 			<value>
 				<prerequisites>
-					<li>Ferny_StrawBeds</li>
+					<li>Ferny_Bedroll</li>
 				</prerequisites>
 			</value>
 		</nomatch>
@@ -177,7 +177,7 @@
     <xpath>/Defs/ThingDef[defName="Dankpyon_CupAndDice"]/researchPrerequisites</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_CupAndDice</li>
+        <li>Ferny_ChessTable</li>
       </researchPrerequisites>
     </value>
   </match>
@@ -185,7 +185,7 @@
     <xpath>/Defs/ThingDef[defName="Dankpyon_CupAndDice"]</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_CupAndDice</li>
+        <li>Ferny_ChessTable</li>
       </researchPrerequisites>
     </value>
   </nomatch>
@@ -197,7 +197,7 @@
     <xpath>/Defs/ThingDef[defName="DankPyon_RimWar"]/researchPrerequisites</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_RimWar</li>
+        <li>Ferny_ChessTable</li>
       </researchPrerequisites>
     </value>
   </match>
@@ -205,7 +205,7 @@
     <xpath>/Defs/ThingDef[defName="DankPyon_RimWar"]</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_RimWar</li>
+        <li>Ferny_ChessTable</li>
       </researchPrerequisites>
     </value>
   </nomatch>
@@ -217,7 +217,7 @@
     <xpath>/Defs/ThingDef[defName="DankPyon_Tarocco"]/researchPrerequisites</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_Tarocco</li>
+        <li>Ferny_ChessTable</li>
       </researchPrerequisites>
     </value>
   </match>
@@ -225,7 +225,7 @@
     <xpath>/Defs/ThingDef[defName="DankPyon_Tarocco"]</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_Tarocco</li>
+        <li>Ferny_ChessTable</li>
       </researchPrerequisites>
     </value>
   </nomatch>

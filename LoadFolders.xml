@@ -5,7 +5,6 @@
 		<li>1.6</li>
 		<li IfModActive="ferny.progressionarsenal">1.6/Mods and Shit/Progression Arsenal</li>
 		<li IfModActive="ferny.noderesearch">1.6/Mods and Shit/Node Research</li>
-		<li IfModActiveAll="ferny.progressionarsenal,vanillaexpanded.vfesecurity">1.6/Mods and Shit/Progression Arsenal + VFE Security</li>
 		<li IfModActive="sarg.alphapropsparks">1.6/Mods and Shit/AP Parks</li>
 		<li IfModActive="Inggo.AdvancedPolyBeds">1.6/Mods and Shit/Advanced Poly Beds</li>
 		<li IfModActive="mlie.amnabisflags">1.6/Mods and Shit/Amnabi's Flags</li>

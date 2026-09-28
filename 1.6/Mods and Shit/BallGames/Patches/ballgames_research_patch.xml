@@ -18,7 +18,7 @@
 				<xpath>/Defs/ThingDef[defName="SoccerGoal"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Soccer</li>
+						<li>Ferny_Basketball</li>
 					</researchPrerequisites>
 				</value>
 			</li>
@@ -26,7 +26,7 @@
 				<xpath>/Defs/ThingDef[defName="VolleyballNet"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Volleyball</li>
+						<li>Ferny_Basketball</li>
 					</researchPrerequisites>
 				</value>
 			</li>

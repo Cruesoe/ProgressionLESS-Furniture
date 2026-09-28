@@ -24,7 +24,7 @@
 				<xpath>/Defs/ThingDef[defName="ToyBox" or defName="BabyDecoration"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_BabyToys</li>
+						<li>Ferny_Crib</li>
 					</researchPrerequisites>
 				</value>
 			</li>

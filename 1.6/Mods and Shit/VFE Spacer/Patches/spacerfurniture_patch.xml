@@ -5,7 +5,8 @@
 		<xpath>Defs/ThingDef[@Name="VFES_InteractiveTableBase"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_InteractiveTables</li>
+				<li>SpacerElectronics</li>
+				<li>Fabrication</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -14,7 +15,8 @@
 		<xpath>Defs/ThingDef[defName="Spacer_OutdoorLamp"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_OutdoorSolarLamp</li>
+				<li>SpacerElectronics</li>
+				<li>Fabrication</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -30,7 +32,9 @@
 		<xpath>Defs/ThingDef[defName="Seat_AdvChair"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_AdvancedChair</li>
+				<li>SpacerFurniture</li>
+				<li>Fabrication</li>
+				<li>Ferny_Couches</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -39,7 +43,8 @@
 		<xpath>Defs/ThingDef[defName="VFES_ModernArmchair"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_ModernCouches</li>
+				<li>SpacerFurniture</li>
+				<li>Ferny_Couches</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -48,27 +53,30 @@
 		<xpath>Defs/ThingDef[defName="VFES_ModernCouch"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_ModernCouches</li>
+				<li>SpacerFurniture</li>
+				<li>Ferny_Couches</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
 
 
 
-<!-- Ferny_ErgonomicBeds prerequisite for advanced bedrooms -->
+<!-- Ergonomic bed research prerequisite for advanced bedrooms -->
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ResearchProjectDef[defName="SpacerFurniture"]/prerequisites</xpath>
 		<match Class="PatchOperationAdd">
 			<xpath>/Defs/ResearchProjectDef[defName="SpacerFurniture"]/prerequisites</xpath>
 			<value>
-				<li>Ferny_ErgonomicBeds</li>
+				<li>MF_ModernFurniture</li>
+				<li>Ferny_ClothBeds</li>
 			</value>
 		</match>
 		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/ResearchProjectDef[defName="SpacerFurniture"]</xpath>
 			<value>
 				<prerequisites>
-					<li>Ferny_ErgonomicBeds</li>
+					<li>MF_ModernFurniture</li>
+					<li>Ferny_ClothBeds</li>
 				</prerequisites>
 			</value>
 		</nomatch>

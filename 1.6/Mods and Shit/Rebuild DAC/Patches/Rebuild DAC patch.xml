@@ -16,24 +16,6 @@
         </value>
     </li>
 
-    <li Class="PatchOperationAdd">
-        <success>Always</success>
-			<xpath>/Defs</xpath>
-			<value>
-                <ResearchProjectDef>
-                    <defName>Ferny_PrisonArchitecture</defName>
-                    <label>Prison architecture</label>
-                    <description>Begin building structures that can keep prisoners contained.</description>
-                    <baseCost>500</baseCost>
-                    <techLevel>Medieval</techLevel>
-                    <researchViewX>1.00</researchViewX>
-                    <researchViewY>2.00</researchViewY>
-                    <prerequisites>
-                        <li>Smithing</li>
-                    </prerequisites>
-                </ResearchProjectDef>
-			</value>
-    </li>
 
 
 
@@ -41,7 +23,8 @@
                     <xpath>Defs/ThingDef[defName="RB_CellWall"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
-                        	<li>Ferny_PrisonArchitecture</li>
+                        	<li>Ferny_WindowWall</li>
+                        	<li>Smithing</li>
                         </researchPrerequisites>
                     </value>
                 </li>

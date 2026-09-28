@@ -4,7 +4,7 @@
 		<xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_Clocks</li>
+				<li>ComplexFurniture</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -13,7 +13,7 @@
 		<xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_Clocks</li>
+				<li>ComplexFurniture</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -22,7 +22,7 @@
 		<xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_Clocks</li>
+				<li>ComplexFurniture</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -47,7 +47,8 @@
 		<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_ElectronicAlarmClock</li>
+				<li>Ferny_AlarmClock</li>
+				<li>Electricity</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>

@@ -9,7 +9,8 @@
 			<xpath>/Defs/ThingDef[defName="DoorFrameX1Seamlessly"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -18,7 +19,8 @@
 			<xpath>/Defs/ThingDef[defName="DoorFrameX1Seamlessly"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -31,7 +33,8 @@
 			<xpath>/Defs/ThingDef[defName="DoorFrameX1Old"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -40,7 +43,8 @@
 			<xpath>/Defs/ThingDef[defName="DoorFrameX1Old"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -53,7 +57,8 @@
 			<xpath>/Defs/ThingDef[defName="DoorFrameX2Old"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -62,7 +67,8 @@
 			<xpath>/Defs/ThingDef[defName="DoorFrameX2Old"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -75,7 +81,8 @@
 			<xpath>/Defs/ThingDef[defName="KKOrnateDoorFrame"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -84,7 +91,8 @@
 			<xpath>/Defs/ThingDef[defName="KKOrnateDoorFrame"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -97,7 +105,8 @@
 			<xpath>/Defs/ThingDef[defName="KKDoorPanels"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -106,7 +115,8 @@
 			<xpath>/Defs/ThingDef[defName="KKDoorPanels"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -119,7 +129,8 @@
 			<xpath>/Defs/ThingDef[defName="KKPanelsStraight"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -128,7 +139,8 @@
 			<xpath>/Defs/ThingDef[defName="KKPanelsStraight"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -141,7 +153,8 @@
 			<xpath>/Defs/ThingDef[defName="KKPanelsCorner"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -150,7 +163,8 @@
 			<xpath>/Defs/ThingDef[defName="KKPanelsCorner"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>

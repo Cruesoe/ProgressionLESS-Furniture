@@ -140,7 +140,7 @@
 				<xpath>/Defs/ThingDef[defName="BS_Giant_AnimalSleepingBox"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_AnimalSleepingBox</li>
+						<li>Ferny_AnimalBed</li>
 					</researchPrerequisites>
 				</value>
 			</li>

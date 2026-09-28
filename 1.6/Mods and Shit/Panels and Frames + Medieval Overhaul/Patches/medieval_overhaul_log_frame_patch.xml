@@ -9,7 +9,8 @@
 			<xpath>/Defs/ThingDef[defName="DankPyon_Frame_Log"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -18,7 +19,8 @@
 			<xpath>/Defs/ThingDef[defName="DankPyon_Frame_Log"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>

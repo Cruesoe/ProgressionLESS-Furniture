@@ -2,24 +2,6 @@
 
 <Patch>
 
-    <!-- Window wall research -->
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs</xpath>
-        <value>
-            <ResearchProjectDef>
-                <defName>Ferny_WindowWall</defName>
-                <label>window wall</label>
-                <description>Build glass wall sections that let light and sight through while enclosing a room.</description>
-                <baseCost>300</baseCost>
-                <techLevel>Medieval</techLevel>
-                <researchViewX>2.00</researchViewX>
-                <researchViewY>2.00</researchViewY>
-                <prerequisites>
-                    <li>Smithing</li>
-                </prerequisites>
-            </ResearchProjectDef>
-        </value>
-    </Operation>
 
     <!-- Rename ReBuild glass walls into window walls -->
     <Operation Class="PatchOperationReplace">
@@ -42,6 +24,7 @@
         <value>
             <researchPrerequisites Inherit="False">
                 <li>Ferny_WindowWall</li>
+                <li>Smithing</li>
             </researchPrerequisites>
         </value>
     </Operation>
@@ -51,6 +34,7 @@
         <value>
             <researchPrerequisites Inherit="False">
                 <li>Ferny_WindowWall</li>
+                <li>Smithing</li>
             </researchPrerequisites>
         </value>
     </Operation>
@@ -60,6 +44,7 @@
         <value>
             <researchPrerequisites Inherit="False">
                 <li>Ferny_WindowWall</li>
+                <li>Smithing</li>
             </researchPrerequisites>
         </value>
     </Operation>
@@ -69,6 +54,7 @@
         <value>
             <researchPrerequisites Inherit="False">
                 <li>Ferny_WindowWall</li>
+                <li>Smithing</li>
             </researchPrerequisites>
         </value>
     </Operation>

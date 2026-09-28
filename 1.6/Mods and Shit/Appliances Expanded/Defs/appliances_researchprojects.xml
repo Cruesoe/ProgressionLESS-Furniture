@@ -1,61 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef>
-		<defName>Ferny_ChemfuelBrazier</defName>
-		<label>Chemfuel brazier</label>
-		<description>Build braziers that burn chemfuel for controlled heat and light.</description>
-		<baseCost>400</baseCost>
-		<techLevel>Industrial</techLevel>
-		<researchViewX>27</researchViewX>
-		<researchViewY>4.50</researchViewY>
-		<prerequisites>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Ferny_Brazier</li>
-			<li MayRequire="ferny.generallymoreresearch">Ferny_ChemfuelLogistics</li>
-		</prerequisites>
-	</ResearchProjectDef>
-	<ResearchProjectDef>
-		<defName>Ferny_ChemfuelFloodlight</defName>
-		<label>Chemfuel floodlight</label>
-		<description>Burn liquid fuel in powerful fixtures to illuminate large outdoor areas.</description>
-		<baseCost>400</baseCost>
-		<techLevel>Industrial</techLevel>
-		<researchViewX>30</researchViewX>
-		<researchViewY>3.50</researchViewY>
-		<prerequisites>
-			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
-			<li>Smithing</li>
-		</prerequisites>
-	</ResearchProjectDef>
-	<ResearchProjectDef>
-		<defName>Ferny_ChemfuelSunLamp</defName>
-		<label>Chemfuel sun lamp</label>
-		<description>Use liquid fuel to produce the intense illumination needed for indoor cultivation.</description>
-		<baseCost>500</baseCost>
-		<techLevel>Industrial</techLevel>
-		<researchViewX>30</researchViewX>
-		<researchViewY>4.00</researchViewY>
-		<prerequisites>
-			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
-			<li>Smithing</li>
-		</prerequisites>
-	</ResearchProjectDef>
-	<ResearchProjectDef>
-		<defName>Ferny_ChemfuelWallLight</defName>
-		<label>Chemfuel wall light</label>
-		<description>Fit compact burners to vertical surfaces for illumination without an electrical supply.</description>
-		<baseCost>300</baseCost>
-		<techLevel>Industrial</techLevel>
-		<researchViewX>30</researchViewX>
-		<researchViewY>4.50</researchViewY>
-		<prerequisites>
-			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
-			<li>Smithing</li>
-		</prerequisites>
-	</ResearchProjectDef>
-	<ResearchProjectDef>
 		<defName>Ferny_ChemfuelStandingLamp</defName>
-		<label>Chemfuel standing lamp</label>
-		<description>Equip freestanding fixtures with liquid-fuel burners to brighten rooms without electrical power.</description>
+		<label>Chemfuel lights</label>
+		<description>Build chemfuel-powered lamps, floodlights, sun lamps, wall lights and braziers.</description>
 		<baseCost>300</baseCost>
 		<techLevel>Industrial</techLevel>
 		<researchViewX>30</researchViewX>

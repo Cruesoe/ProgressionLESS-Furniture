@@ -5,7 +5,7 @@
 		<xpath>Defs/ThingDef[defName="Seat_ModernChair"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_ErgonomicChair</li>
+				<li>Ferny_Couches</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -46,7 +46,8 @@
 				<xpath>/Defs/ThingDef[@Name="VFE_ErgonomicBedBase"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_ErgonomicBeds</li>
+						<li>MF_ModernFurniture</li>
+						<li>Ferny_ClothBeds</li>
 					</researchPrerequisites>
 				</value>
 			</li>
@@ -59,7 +60,8 @@
 				</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_ErgonomicBeds</li>
+						<li>MF_ModernFurniture</li>
+						<li>Ferny_ClothBeds</li>
 					</researchPrerequisites>
 				</value>
 			</li>
@@ -172,7 +174,8 @@
 			<xpath>/Defs/ThingDef[defName="Table_Counter"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_ModularCounter</li>
+					<li>ComplexFurniture</li>
+					<li>Ferny_Tables</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -180,7 +183,8 @@
 			<xpath>/Defs/ThingDef[defName="Table_Counter"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_ModularCounter</li>
+					<li>ComplexFurniture</li>
+					<li>Ferny_Tables</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -229,7 +233,7 @@
 			<xpath>/Defs/ThingDef[defName="Seat_Cushion"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_SittingCushion</li>
+					<li>Ferny_Chair</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -237,7 +241,7 @@
 			<xpath>/Defs/ThingDef[defName="Seat_Cushion"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_SittingCushion</li>
+					<li>Ferny_Chair</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -248,7 +252,7 @@
 			<xpath>/Defs/ThingDef[defName="Joy_Arcade"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_ArcadeMachine</li>
+					<li>Ferny_PersonalComputer</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -256,7 +260,7 @@
 			<xpath>/Defs/ThingDef[defName="Joy_Arcade"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_ArcadeMachine</li>
+					<li>Ferny_PersonalComputer</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -267,7 +271,8 @@
 			<xpath>/Defs/ThingDef[defName="Joy_DartsBoard"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_DartsBoard</li>
+					<li>ComplexFurniture</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -275,7 +280,8 @@
 			<xpath>/Defs/ThingDef[defName="Joy_DartsBoard"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_DartsBoard</li>
+					<li>ComplexFurniture</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -286,7 +292,8 @@
 			<xpath>/Defs/ThingDef[defName="Joy_RouletteTable"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_RouletteTable</li>
+					<li>Ferny_PokerTable</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -294,7 +301,8 @@
 			<xpath>/Defs/ThingDef[defName="Joy_RouletteTable"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_RouletteTable</li>
+					<li>Ferny_PokerTable</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -305,7 +313,7 @@
 			<xpath>/Defs/ThingDef[defName="Radio_Industrial"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_IndustrialRadio</li>
+					<li>Ferny_PersonalComputer</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -313,7 +321,7 @@
 			<xpath>/Defs/ThingDef[defName="Radio_Industrial"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_IndustrialRadio</li>
+					<li>Ferny_PersonalComputer</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -324,7 +332,7 @@
 			<xpath>/Defs/ThingDef[defName="Radio_Spacer"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_LongwaveRadio</li>
+					<li>Ferny_ModernComputer</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -332,7 +340,7 @@
 			<xpath>/Defs/ThingDef[defName="Radio_Spacer"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_LongwaveRadio</li>
+					<li>Ferny_ModernComputer</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>

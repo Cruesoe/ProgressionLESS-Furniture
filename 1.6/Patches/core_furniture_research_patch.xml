@@ -26,7 +26,8 @@
 				<xpath>/Defs/ThingDef[defName="Dresser"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Dresser</li>
+						<li>ComplexFurniture</li>
+						<li>Ferny_Tables</li>
 					</researchPrerequisites>
 				</value>
 			</li>
@@ -34,7 +35,8 @@
 				<xpath>/Defs/ThingDef[defName="EndTable"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_EndTable</li>
+						<li>ComplexFurniture</li>
+						<li>Ferny_Tables</li>
 					</researchPrerequisites>
 				</value>
 			</li>

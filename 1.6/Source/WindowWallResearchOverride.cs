@@ -14,43 +14,36 @@ namespace ProgressionLESSFurniture
 
         private static void Apply()
         {
-            ResearchProjectDef windowWallProject = DefDatabase<ResearchProjectDef>.GetNamedSilentFail("Ferny_WindowWall");
-            if (windowWallProject != null)
-            {
-                SetOnlyPrerequisite("RB_GlassWall", windowWallProject);
-                SetOnlyPrerequisite("RB_ReinforcedGlassWall", windowWallProject);
-                SetOnlyPrerequisite("RB_ClerestoryWall", windowWallProject);
-                SetOnlyPrerequisite("RB_ReinforcedClerestoryWall", windowWallProject);
-            }
-
-            ResearchProjectDef plantPotsProject = DefDatabase<ResearchProjectDef>.GetNamedSilentFail("Ferny_PlantPots");
-            if (plantPotsProject != null)
-            {
-                SetOnlyPrerequisite("VFE_LongPlantPot", plantPotsProject);
-            }
-
-            ResearchProjectDef modularCounterProject = DefDatabase<ResearchProjectDef>.GetNamedSilentFail("Ferny_ModularCounter");
-            if (modularCounterProject != null)
-            {
-                SetOnlyPrerequisite("Table_Counter", modularCounterProject);
-            }
-
-            ResearchProjectDef cribProject = DefDatabase<ResearchProjectDef>.GetNamedSilentFail("Ferny_Crib");
-            if (cribProject != null)
-            {
-                SetOnlyPrerequisite("Crib", cribProject);
-            }
+            SetPrerequisites("RB_GlassWall", "Ferny_WindowWall", "Smithing");
+            SetPrerequisites("RB_ReinforcedGlassWall", "Ferny_WindowWall", "Smithing");
+            SetPrerequisites("RB_ClerestoryWall", "Ferny_WindowWall", "Smithing");
+            SetPrerequisites("RB_ReinforcedClerestoryWall", "Ferny_WindowWall", "Smithing");
+            SetPrerequisites("VFE_LongPlantPot", "Ferny_PlantPots");
+            SetPrerequisites("Table_Counter", "ComplexFurniture", "Ferny_Tables");
+            SetPrerequisites("Crib", "Ferny_Crib", "Ferny_RoughCrib");
         }
 
-        private static void SetOnlyPrerequisite(string defName, ResearchProjectDef prerequisite)
+        // Replaces the building's research with the given projects; skipped if the building or first project is missing, later projects only when loaded
+        private static void SetPrerequisites(string defName, string project, params string[] extras)
         {
             ThingDef thingDef = DefDatabase<ThingDef>.GetNamedSilentFail(defName);
-            if (thingDef == null)
+            ResearchProjectDef main = DefDatabase<ResearchProjectDef>.GetNamedSilentFail(project);
+            if (thingDef == null || main == null)
             {
                 return;
             }
 
-            thingDef.researchPrerequisites = new List<ResearchProjectDef> { prerequisite };
+            var prerequisites = new List<ResearchProjectDef> { main };
+            foreach (string extra in extras)
+            {
+                ResearchProjectDef extraDef = DefDatabase<ResearchProjectDef>.GetNamedSilentFail(extra);
+                if (extraDef != null && !prerequisites.Contains(extraDef))
+                {
+                    prerequisites.Add(extraDef);
+                }
+            }
+
+            thingDef.researchPrerequisites = prerequisites;
         }
     }
 }

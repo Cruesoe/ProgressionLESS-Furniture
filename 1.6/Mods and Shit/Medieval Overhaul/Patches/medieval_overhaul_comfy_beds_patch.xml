@@ -10,7 +10,7 @@
 				<xpath>/Defs/ThingDef[defName="DankPyon_Bed_Rustic_Red" or defName="DankPyon_Bed_Rustic_Green" or defName="DankPyon_Bed_Rustic_Blue" or defName="DankPyon_Bed_RusticDouble_Red" or defName="DankPyon_Bed_RusticDouble_Green" or defName="DankPyon_Bed_RusticDouble_Blue"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_ComfyBeds</li>
+						<li>Ferny_ClothBeds</li>
 					</researchPrerequisites>
 				</value>
 			</li>

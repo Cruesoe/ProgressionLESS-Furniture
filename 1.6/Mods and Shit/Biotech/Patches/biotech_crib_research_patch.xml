@@ -9,6 +9,7 @@
 			<value>
 				<researchPrerequisites Inherit="False">
 					<li>Ferny_Crib</li>
+					<li MayRequire="ferny.ProgressionEducation">Ferny_RoughCrib</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -18,6 +19,7 @@
 			<value>
 				<researchPrerequisites Inherit="False">
 					<li>Ferny_Crib</li>
+					<li MayRequire="ferny.ProgressionEducation">Ferny_RoughCrib</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>

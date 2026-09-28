@@ -8,7 +8,8 @@
 			<xpath>/Defs/TerrainDef[defName="WoodenDeck"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Deck</li>
+					<li>Ferny_Floors</li>
+					<li MayRequire="ferny.progressionarsenal,vanillaexpanded.vfesecurity">Ferny_Platform</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -17,7 +18,8 @@
 			<xpath>/Defs/TerrainDef[defName="WoodenDeck"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Deck</li>
+					<li>Ferny_Floors</li>
+					<li MayRequire="ferny.progressionarsenal,vanillaexpanded.vfesecurity">Ferny_Platform</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
