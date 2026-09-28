@@ -6,8 +6,8 @@
 		<description>Highlight museum exhibits with focused illumination that brings their details into view.</description>
 		<baseCost>300</baseCost>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>30</researchViewX>
-		<researchViewY>3.00</researchViewY>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>6.60</researchViewY>
 		<prerequisites>
 			<li>Ferny_StandingLamp</li>
 		</prerequisites>
