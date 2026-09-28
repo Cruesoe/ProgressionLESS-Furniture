@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using RimWorld;
 using Verse;
 
-namespace ProgressionFurniture
+namespace ProgressionLESSFurniture
 {
     [StaticConstructorOnStartup]
     public static class ResearchPrerequisiteOverride

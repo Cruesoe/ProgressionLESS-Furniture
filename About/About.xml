@@ -1,63 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Progression: Furniture</name>
-	<author>ferny</author>
-	<packageId>ferny.progressionfurniture</packageId>
-	<supportedVersions>
-		<li>1.6</li>
-	</supportedVersions>
-	<description>Integrates decoration mods into Vanilla progression.</description>
-	<modDependencies>
-		<li>
-			<packageId>ferny.betterarchitect</packageId>
-			<displayName>Better Architect Menu</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/3563882422</steamWorkshopUrl>
-		</li>
-	</modDependencies>
-	<loadAfter>
-		<li>DSP.HalituisAmaricanous</li>
-		<li>Animal.BedsNew</li>
-		<li>Inggo.AdvancedPolyBeds</li>
-		<li>Ludeon.Rimworld</li>
-		<li>Ludeon.Rimworld.Ideology</li>
-		<li>Mumei.Signs</li>
-		<li>ReGrowth.BOTR.Core</li>
-		<li>Scurvyez.StevesWalls</li>
-		<li>Van.DACrypts</li>
-		<li>Wanzi.BigGraves</li>
-		<li>scpchemfuel.appliances</li>
-		<li>biomesteam.biomesfossils</li>
-		<li>zal.lanterns</li>
-		<li>VanillaExpanded.HelixienGas</li>
-		<li>VanillaExpanded.VFECore</li>
-		<li>VanillaExpanded.VFESpacer</li>
-		<li>cixwow.vfespaceraddon</li>
-		<li>dark.signs</li>
-		<li>erin.decorations</li>
-		<li>farxmai2.vanillafurnitureexpandedpack</li>
-		<li>icepickgma.invisibledisplaycase</li>
-		<li>lm.lustechcamostyles</li>
-		<li>lmgginspace.repairbed</li>
-		<li>mlie.amnabisflags</li>
-		<li>nightmare.museums</li>
-		<li>oskarpotocki.vanillafactionsexpanded.settlersmodule</li>
-		<li>pphhyy.GuldenNew</li>
-		<li>rebuild.cotr.doorsandcorners</li>
-		<li>rimsenal.Sophian</li>
-		<li>rimsenal.techist</li>
-		<li>sarg.alphapropsparks</li>
-		<li>scurvyez.stevesdoors</li>
-		<li>vanillaexpanded.vfearchitect</li>
-		<li>vanillaexpanded.vfeart</li>
-		<li>vanillaexpanded.vgeneticse</li>
-		<li>vanillaquestsexpanded.ancients</li>
-		<li>xmb.ancienturbanruins.mo</li>
-		<li>zylle.clocks</li>
-		<li>oskarpotocki.vfe.tribals</li>
-		<!-- <li>ferny.progressioncore</li> -->
-		<li>DankPyon.Medieval.Overhaul</li>
-		<li>ponpeco.pfkidsroom</li>
-		<li>yayoflake.mahjong</li>
-		<!-- <li>Wara.toomanymods</li> -->
-	</loadAfter>
+  <name>ProgressionLESS: Furniture</name>
+  <author>Cruesoe</author>
+  <packageId>cruesoe.progressionlessfurniture</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Integrates decoration mods into vanilla progression.
+
+Forked from Progression: Furniture by ferny: https://steamcommunity.com/sharedfiles/filedetails/?id=3771246586
+Huge thanks to ferny for the original mod and all the Progression work this builds on. Replaces the original; do not use both.
+
+For a really good modpack, check out The Progression Modpack: https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585</description>
+  <modDependencies>
+    <li>
+      <packageId>ferny.betterarchitect</packageId>
+      <displayName>Better Architect Menu</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3563882422</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <incompatibleWith>
+    <li>ferny.progressionfurniture</li>
+  </incompatibleWith>
+  <loadAfter>
+    <li>DSP.HalituisAmaricanous</li>
+    <li>Animal.BedsNew</li>
+    <li>Inggo.AdvancedPolyBeds</li>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Mumei.Signs</li>
+    <li>ReGrowth.BOTR.Core</li>
+    <li>Scurvyez.StevesWalls</li>
+    <li>Van.DACrypts</li>
+    <li>Wanzi.BigGraves</li>
+    <li>scpchemfuel.appliances</li>
+    <li>biomesteam.biomesfossils</li>
+    <li>zal.lanterns</li>
+    <li>VanillaExpanded.HelixienGas</li>
+    <li>VanillaExpanded.VFECore</li>
+    <li>VanillaExpanded.VFESpacer</li>
+    <li>cixwow.vfespaceraddon</li>
+    <li>dark.signs</li>
+    <li>erin.decorations</li>
+    <li>farxmai2.vanillafurnitureexpandedpack</li>
+    <li>icepickgma.invisibledisplaycase</li>
+    <li>lm.lustechcamostyles</li>
+    <li>lmgginspace.repairbed</li>
+    <li>mlie.amnabisflags</li>
+    <li>nightmare.museums</li>
+    <li>oskarpotocki.vanillafactionsexpanded.settlersmodule</li>
+    <li>pphhyy.GuldenNew</li>
+    <li>rebuild.cotr.doorsandcorners</li>
+    <li>rimsenal.Sophian</li>
+    <li>rimsenal.techist</li>
+    <li>sarg.alphapropsparks</li>
+    <li>scurvyez.stevesdoors</li>
+    <li>vanillaexpanded.vfearchitect</li>
+    <li>vanillaexpanded.vfeart</li>
+    <li>vanillaexpanded.vgeneticse</li>
+    <li>vanillaquestsexpanded.ancients</li>
+    <li>xmb.ancienturbanruins.mo</li>
+    <li>zylle.clocks</li>
+    <li>oskarpotocki.vfe.tribals</li>
+    <!-- <li>ferny.progressioncore</li> -->
+    <li>DankPyon.Medieval.Overhaul</li>
+    <li>ponpeco.pfkidsroom</li>
+    <li>yayoflake.mahjong</li>
+    <!-- <li>Wara.toomanymods</li> -->
+  </loadAfter>
 </ModMetaData>
