@@ -134,4 +134,35 @@
 		</prerequisites>
 	</ResearchProjectDef>
 
+	<ResearchProjectDef>
+		<defName>Ferny_ModularCounter</defName>
+		<label>Modular counter</label>
+		<description>Build modular counters to furnish workspaces and rooms.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>28</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_Tables</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_DeskLamp</defName>
+		<label>Desk lamp</label>
+		<description>Illuminate small work areas with compact fixtures placed on nearby furniture.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>30</researchViewX>
+		<researchViewY>5.50</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+			<li>Smithing</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
 </Defs>

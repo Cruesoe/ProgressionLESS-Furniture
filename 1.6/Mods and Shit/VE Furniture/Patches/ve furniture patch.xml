@@ -30,14 +30,40 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[@Name="VFE_ErgonomicBedBase"]/researchPrerequisites</xpath>
-		<value>
-			<researchPrerequisites>
-				<li>Ferny_ErgonomicBeds</li>
-			</researchPrerequisites>
-		</value>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationRemove">
+				<success>Always</success>
+				<xpath>
+					/Defs/ThingDef[
+						@Name="VFE_ErgonomicBedBase"
+						or defName="Bed_Ergonomic"
+						or defName="Bed_DoubleErgonomic"
+					]/researchPrerequisites
+				</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[@Name="VFE_ErgonomicBedBase"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_ErgonomicBeds</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>
+					/Defs/ThingDef[
+						defName="Bed_Ergonomic"
+						or defName="Bed_DoubleErgonomic"
+					]
+				</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_ErgonomicBeds</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ResearchProjectDef[defName="MF_RoyalFurniture"]/label</xpath>
@@ -107,7 +133,7 @@
 		<match Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName="VFE_LongPlantPot"]/researchPrerequisites</xpath>
 			<value>
-				<researchPrerequisites>
+				<researchPrerequisites Inherit="False">
 					<li>Ferny_PlantPots</li>
 				</researchPrerequisites>
 			</value>
@@ -115,7 +141,7 @@
 		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/ThingDef[defName="VFE_LongPlantPot"]</xpath>
 			<value>
-				<researchPrerequisites>
+				<researchPrerequisites Inherit="False">
 					<li>Ferny_PlantPots</li>
 				</researchPrerequisites>
 			</value>
@@ -146,7 +172,7 @@
 			<xpath>/Defs/ThingDef[defName="Table_Counter"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_Tables</li>
+					<li>Ferny_ModularCounter</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -154,7 +180,7 @@
 			<xpath>/Defs/ThingDef[defName="Table_Counter"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_Tables</li>
+					<li>Ferny_ModularCounter</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -174,6 +200,25 @@
 			<value>
 				<researchPrerequisites Inherit="False">
 					<li>Ferny_Tables</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="VFE_AnimalSarcophagus"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="VFE_AnimalSarcophagus"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Sarcophagus</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="VFE_AnimalSarcophagus"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Sarcophagus</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>

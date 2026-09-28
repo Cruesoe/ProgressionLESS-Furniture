@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+<!-- Old shit -->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ResearchProjectDef[defName="MF_BasicFurniture"]</xpath>
+				<nomatch Class="PatchOperationConditional">
+					<xpath>Defs/ThingDef/researchPrerequisites[li="MF_BasicFurniture"]</xpath>
+					<match Class="PatchOperationRemove">
+						<xpath>Defs/ThingDef/researchPrerequisites/li[text()="MF_BasicFurniture"]</xpath>
+					</match>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ResearchProjectDef[defName="MF_BasicFurniture"]</xpath>
+				<nomatch Class="PatchOperationConditional">
+					<xpath>Defs/ResearchProjectDef/prerequisites[li="MF_BasicFurniture"]</xpath>
+					<match Class="PatchOperationRemove">
+						<xpath>Defs/ResearchProjectDef/prerequisites/li[text()="MF_BasicFurniture"]</xpath>
+					</match>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ResearchProjectDef[defName="MF_BasicFurniture"]</xpath>
+				<nomatch Class="PatchOperationConditional">
+					<xpath>Defs/AlphaPrefabs.PrefabDef/researchPrerequisites[li="MF_BasicFurniture"]</xpath>
+					<match Class="PatchOperationRemove">
+						<xpath>Defs/AlphaPrefabs.PrefabDef/researchPrerequisites/li[text()="MF_BasicFurniture"]</xpath>
+					</match>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ResearchProjectDef[defName="DankPyon_RoyalRusticFurniture"]</xpath>
+				<nomatch Class="PatchOperationConditional">
+					<xpath>Defs/ThingDef/researchPrerequisites[li="DankPyon_RoyalRusticFurniture"]</xpath>
+					<match Class="PatchOperationRemove">
+						<xpath>Defs/ThingDef/researchPrerequisites/li[text()="DankPyon_RoyalRusticFurniture"]</xpath>
+					</match>
+				</nomatch>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
-	<Operation Class="PatchOperationConditional" MayRequire="kongkim.PanelsFrames">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="DoorFrameX1Seamlessly"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -23,7 +23,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="kongkim.PanelsFrames">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="DoorFrameX1Old"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -45,7 +45,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="kongkim.PanelsFrames">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="DoorFrameX2Old"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -67,7 +67,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="kongkim.PanelsFrames">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="KKOrnateDoorFrame"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -89,7 +89,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="kongkim.PanelsFrames">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="KKDoorPanels"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -111,7 +111,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="kongkim.PanelsFrames">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="KKPanelsStraight"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -133,7 +133,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="kongkim.PanelsFrames">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="KKPanelsCorner"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -148,28 +148,6 @@
 		<nomatch Class="PatchOperationAdd">
 			<success>Always</success>
 			<xpath>/Defs/ThingDef[defName="KKPanelsCorner"]</xpath>
-			<value>
-				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
-				</researchPrerequisites>
-			</value>
-		</nomatch>
-	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="DankPyon.Medieval.Overhaul">
-		<success>Always</success>
-		<xpath>/Defs/ThingDef[defName="DankPyon_Frame_Log"]/researchPrerequisites</xpath>
-		<match Class="PatchOperationReplace">
-			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="DankPyon_Frame_Log"]/researchPrerequisites</xpath>
-			<value>
-				<researchPrerequisites>
-					<li>Ferny_DoorFraming</li>
-				</researchPrerequisites>
-			</value>
-		</match>
-		<nomatch Class="PatchOperationAdd">
-			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="DankPyon_Frame_Log"]</xpath>
 			<value>
 				<researchPrerequisites>
 					<li>Ferny_DoorFraming</li>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="Crib"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="Crib"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Crib</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="Crib"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Crib</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+
+</Patch>

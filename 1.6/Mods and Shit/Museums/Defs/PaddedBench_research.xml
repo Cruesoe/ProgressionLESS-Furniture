@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_PaddedBench</defName>
+		<label>Padded bench</label>
+		<description>Build padded benches for comfortable shared seating.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>28</researchViewX>
+		<researchViewY>5.50</researchViewY>
+		<prerequisites>
+			<li>Ferny_Chair</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

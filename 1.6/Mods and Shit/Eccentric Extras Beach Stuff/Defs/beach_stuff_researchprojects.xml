@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_BeachBall</defName>
+		<label>Beach ball</label>
+		<description>Make inflatable balls for lighthearted beach recreation.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>4.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_BeachChair</defName>
+		<label>Beach chair</label>
+		<description>Build folding chairs for relaxing outdoors.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>4.50</researchViewY>
+		<prerequisites>
+			<li>Ferny_Chair</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_BeachUmbrella</defName>
+		<label>Beach umbrella</label>
+		<description>Build broad umbrellas for shade and outdoor comfort.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_BeachChair</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+</Defs>

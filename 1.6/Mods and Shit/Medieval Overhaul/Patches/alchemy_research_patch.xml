@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="DankPyon_Alchemy"]/prerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ResearchProjectDef[defName="DankPyon_Alchemy"]/prerequisites</xpath>
+			<value>
+				<prerequisites Inherit="False">
+					<li>Ferny_Tables</li>
+				</prerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="DankPyon_Alchemy"]</xpath>
+			<value>
+				<prerequisites Inherit="False">
+					<li>Ferny_Tables</li>
+				</prerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+</Patch>

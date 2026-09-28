@@ -26,54 +26,6 @@
 	</Operation>
 
 
-
-
-
-
-<!-- Old shit -->
-
-	<Operation Class="PatchOperationSequence">
-		<operations>
-			<li Class="PatchOperationConditional" MayRequire="DankPyon.Medieval.Overhaul,vanillaexpanded.vfecore">
-				<xpath>Defs/ResearchProjectDef[defName="MF_BasicFurniture"]</xpath>
-				<nomatch Class="PatchOperationConditional">
-					<xpath>Defs/ThingDef/researchPrerequisites[li="MF_BasicFurniture"]</xpath>
-					<match Class="PatchOperationRemove">
-						<xpath>Defs/ThingDef/researchPrerequisites/li[text()="MF_BasicFurniture"]</xpath>
-					</match>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional" MayRequire="DankPyon.Medieval.Overhaul,vanillaexpanded.vfecore">
-				<xpath>Defs/ResearchProjectDef[defName="MF_BasicFurniture"]</xpath>
-				<nomatch Class="PatchOperationConditional">
-					<xpath>Defs/ResearchProjectDef/prerequisites[li="MF_BasicFurniture"]</xpath>
-					<match Class="PatchOperationRemove">
-						<xpath>Defs/ResearchProjectDef/prerequisites/li[text()="MF_BasicFurniture"]</xpath>
-					</match>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional" MayRequire="DankPyon.Medieval.Overhaul,vanillaexpanded.vfecore">
-				<xpath>Defs/ResearchProjectDef[defName="MF_BasicFurniture"]</xpath>
-				<nomatch Class="PatchOperationConditional" MayRequire="sarg.alphaprefabs">
-					<xpath>Defs/AlphaPrefabs.PrefabDef/researchPrerequisites[li="MF_BasicFurniture"]</xpath>
-					<match Class="PatchOperationRemove">
-						<xpath>Defs/AlphaPrefabs.PrefabDef/researchPrerequisites/li[text()="MF_BasicFurniture"]</xpath>
-					</match>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional" MayRequire="DankPyon.Medieval.Overhaul,vanillaexpanded.vfecore">
-				<xpath>Defs/ResearchProjectDef[defName="DankPyon_RoyalRusticFurniture"]</xpath>
-				<nomatch Class="PatchOperationConditional" MayRequire="liuyu.adaptive.mo">
-					<xpath>Defs/ThingDef/researchPrerequisites[li="DankPyon_RoyalRusticFurniture"]</xpath>
-					<match Class="PatchOperationRemove">
-						<xpath>Defs/ThingDef/researchPrerequisites/li[text()="DankPyon_RoyalRusticFurniture"]</xpath>
-					</match>
-				</nomatch>
-			</li>
-		</operations>
-	</Operation>
-
-
 <!-- Ferny_Tables research prerequisites -->
 
                 <Operation Class="PatchOperationConditional">
@@ -1190,7 +1142,7 @@
 
 
 <!-- Trestle follows the tables chain -->
-	<Operation Class="PatchOperationConditional" MayRequire="DankPyon.Medieval.Overhaul">
+	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ResearchProjectDef[defName="DankPyon_Lumber"]/prerequisites/li[text()="Ferny_Tables"]</xpath>
 		<nomatch Class="PatchOperationConditional">
 			<xpath>/Defs/ResearchProjectDef[defName="DankPyon_Lumber"]/prerequisites</xpath>

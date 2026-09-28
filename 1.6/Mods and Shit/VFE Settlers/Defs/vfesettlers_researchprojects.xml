@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_Chemlamp</defName>
+		<label>Chemlamp</label>
+		<description>Build simple chemical lamps for low-tech indoor lighting.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>4.50</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_ChemlampPost</defName>
+		<label>Chemlamp post</label>
+		<description>Build raised chemlamp posts for frontier paths and streets.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_Chemlamp</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_FaroTable</defName>
+		<label>Faro table</label>
+		<description>Build a table for playing faro and other saloon card games.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>5.50</researchViewY>
+		<prerequisites>
+			<li>Ferny_Tables</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_FiveFingerFilletTable</defName>
+		<label>Five finger fillet table</label>
+		<description>Build a table for risky knife games and frontier recreation.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>6.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_Tables</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+</Defs>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_Basketball</defName>
+		<label>Basketball</label>
+		<description>Build basketball hoops for competitive outdoor recreation.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>4.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_Soccer</defName>
+		<label>Soccer</label>
+		<description>Build soccer goals for team recreation.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>4.50</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_Volleyball</defName>
+		<label>Volleyball</label>
+		<description>Build volleyball nets for team recreation.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>28</researchViewX>
+		<researchViewY>4.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+</Defs>

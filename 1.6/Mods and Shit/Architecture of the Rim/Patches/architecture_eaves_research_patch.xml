@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
-	<Operation Class="PatchOperationConditional" MayRequire="EEG.Architecture">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="AR_Rafter"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -23,7 +23,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="EEG.Architecture">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="AR_Eave"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -45,7 +45,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="EEG.Architecture">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="AR_Eave_half"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -67,7 +67,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="EEG.Architecture">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="AR_EaveCorner"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -89,7 +89,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="EEG.Architecture">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="AR_EaveInnerCorner"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -111,7 +111,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="EEG.Architecture">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="AR_EaveStony"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -133,7 +133,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="EEG.Architecture">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="AR_EaveStony_half"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -155,7 +155,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="EEG.Architecture">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="AR_StonyEaveInnerCornerSmall"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -177,7 +177,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="EEG.Architecture">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="AR_StonyEaveOuterCornerSmall"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -199,7 +199,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="EEG.Architecture">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="AR_StonyEaveInnerCorner"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -221,7 +221,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="EEG.Architecture">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="AR_StonyEaveOuterCorner"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -243,7 +243,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="EEG.Architecture">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="AR_EaveWoody"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -265,7 +265,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="EEG.Architecture">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="AR_EaveWoody_half"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -287,7 +287,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="EEG.Architecture">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="AR_WoodyEaveInnerCornerSmall"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -309,7 +309,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="EEG.Architecture">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="AR_WoodyEaveOuterCornerSmall"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -331,7 +331,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="EEG.Architecture">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="AR_WoodyEaveInnerCorner"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">
@@ -353,7 +353,7 @@
 			</value>
 		</nomatch>
 	</Operation>
-	<Operation Class="PatchOperationConditional" MayRequire="EEG.Architecture">
+	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName="AR_WoodyEaveOuterCorner"]/researchPrerequisites</xpath>
 		<match Class="PatchOperationReplace">

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_Buntings</defName>
+		<label>Buntings</label>
+		<description>Hang colorful cloth buntings for bright nursery and playroom decoration.</description>
+		<baseCost>200</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>4.50</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_BabyMobile</defName>
+		<label>Baby mobile</label>
+		<description>Build gentle hanging mobiles for nurseries and infant bedrooms.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_Buntings</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_FairyLights</defName>
+		<label>Fairy lights</label>
+		<description>String tiny glowing bulbs around a room for a playful decorative touch.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>30</researchViewX>
+		<researchViewY>6.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_StandingLamp</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+</Defs>

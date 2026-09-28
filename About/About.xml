@@ -24,6 +24,11 @@
 		<li>ReGrowth.BOTR.Core</li>
 		<li>Scurvyez.StevesWalls</li>
 		<li>Van.DACrypts</li>
+		<li>Wanzi.BigGraves</li>
+		<li>scpchemfuel.appliances</li>
+		<li>biomesteam.biomesfossils</li>
+		<li>zal.lanterns</li>
+		<li>VanillaExpanded.HelixienGas</li>
 		<li>VanillaExpanded.VFECore</li>
 		<li>VanillaExpanded.VFESpacer</li>
 		<li>cixwow.vfespaceraddon</li>
@@ -53,5 +58,6 @@
 		<li>DankPyon.Medieval.Overhaul</li>
 		<li>ponpeco.pfkidsroom</li>
 		<li>yayoflake.mahjong</li>
+		<!-- <li>Wara.toomanymods</li> -->
 	</loadAfter>
 </ModMetaData>

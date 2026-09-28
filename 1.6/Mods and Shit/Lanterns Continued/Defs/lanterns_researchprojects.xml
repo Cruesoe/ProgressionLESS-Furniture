@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_ElectricLanterns</defName>
+		<label>Electric lanterns</label>
+		<description>Enclose powered bulbs in decorative hanging shades, arranged singly or in festive strings.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>30</researchViewX>
+		<researchViewY>2.50</researchViewY>
+		<prerequisites>
+			<li>Ferny_StandingLamp</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+</Defs>

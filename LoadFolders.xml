@@ -3,6 +3,7 @@
 	<v1.6>
 		<li>/</li>
 		<li>1.6</li>
+		<li IfModActiveAll="ferny.progressionarsenal,vanillaexpanded.vfesecurity">1.6/Mods and Shit/Progression Arsenal + VFE Security</li>
 		<li IfModActive="sarg.alphapropsparks">1.6/Mods and Shit/AP Parks</li>
 		<li IfModActive="Inggo.AdvancedPolyBeds">1.6/Mods and Shit/Advanced Poly Beds</li>
 		<li IfModActive="mlie.amnabisflags">1.6/Mods and Shit/Amnabi's Flags</li>
@@ -15,19 +16,26 @@
 		<li IfModActive="erin.decorations">1.6/Mods and Shit/Erin Decorations</li>
 		<li IfModActive="Erin.JapaneseFurniture">1.6/Mods and Shit/Erin Japanese Furniture</li>
 		<li IfModActiveAll="Erin.JapaneseFurniture,Meltup.PolyamoryBeds.Vanilla">1.6/Mods and Shit/Erin Japanese Furniture + Polyamory Beds</li>
+		<li IfModActive="Meltup.PolyamoryBeds.Vanilla">1.6/Mods and Shit/Polyamory Beds</li>
+		<li IfModActiveAll="Meltup.PolyamoryBeds.Vanilla,Ludeon.RimWorld.Ideology">1.6/Mods and Shit/Polyamory Beds + Ideology</li>
 		<li IfModActive="GM.Nautian.Style">1.6/Mods and Shit/Gerrymon Nautian Style</li>
 		<li IfModActive="pphhyy.GuldenNew">1.6/Mods and Shit/Gulden Biome</li>
-		<li IfModActive="Ludeon.Rimworld.Ideology">1.6/Mods and Shit/Ideology</li>
+		<li IfModActive="Ludeon.RimWorld.Royalty">1.6/Mods and Shit/Royalty</li>
+		<li IfModActive="Ludeon.RimWorld.Royalty,ponpeco.pfkidsroom">1.6/Mods and Shit/Curtains Project</li>
+		<li IfModActive="Ludeon.RimWorld.Biotech">1.6/Mods and Shit/Biotech</li>
+		<li IfModActive="Ludeon.RimWorld.Ideology">1.6/Mods and Shit/Ideology</li>
 		<li IfModActive="Ludeon.RimWorld.Odyssey">1.6/Mods and Shit/Odyssey</li>
 		<li IfModActive="icepickgma.invisibledisplaycase">1.6/Mods and Shit/Invisible Display Case</li>
 		<li IfModActive="lm.lustechcamostyles">1.6/Mods and Shit/LusTech Modern Camo Styles</li>
 		<li IfModActive="nightmare.museums">1.6/Mods and Shit/Museums</li>
 		<li IfModActive="kongkim.panelsframes">1.6/Mods and Shit/Panels and Frames</li>
+		<li IfModActiveAll="kongkim.panelsframes,DankPyon.Medieval.Overhaul">1.6/Mods and Shit/Panels and Frames + Medieval Overhaul</li>
 		<li IfModActive="Animal.BedsNew">1.6/Mods and Shit/More Animal Beds</li>
 		<li IfModActive="DankPyon.Medieval.Overhaul">1.6/Mods and Shit/Medieval Overhaul</li>
 		<li IfModActiveAll="DankPyon.Medieval.Overhaul,VanillaExpanded.VFEArt">1.6/Mods and Shit/Medieval Overhaul + VFE Art</li>
 		<li IfModActive="Misstall.Furniture">1.6/Mods and Shit/Misstall Furniture</li>
 		<li IfModActive="mingtuwuxiang.SpaceBaseDecorative">1.6/Mods and Shit/MUS SpaceBase</li>
+		<li IfModActiveAll="Resurrectionem.Furniture,Ludeon.RimWorld.Royalty">1.6/Mods and Shit/RR Furniture Rapture + Royalty</li>
 		<li IfModActive="rebuild.cotr.doorsandcorners">1.6/Mods and Shit/Rebuild DAC</li>
 		<li IfModActive="ReGrowth.BOTR.Core">1.6/Mods and Shit/Regrowth Core</li>
 		<li IfModActive="lmgginspace.repairbed">1.6/Mods and Shit/Repair Bed</li>
@@ -48,6 +56,7 @@
 		<li IfModActive="VanillaExpanded.VFEArt">1.6/Mods and Shit/VFE Art</li>
 		<li IfModActive="oracle.miscellania">1.6/Mods and Shit/Oracle Miscellania</li>
 		<li IfModActiveAll="oracle.miscellania,Ludeon.RimWorld.Royalty">1.6/Mods and Shit/Oracle Miscellania + Royalty</li>
+		<li IfModActive="oskarpotocki.vfe.classical">1.6/Mods and Shit/VFE Classical</li>
 		<li IfModActive="oskarpotocki.vanillafactionsexpanded.settlersmodule">1.6/Mods and Shit/VFE Settlers</li>
 		<li IfModActive="VanillaExpanded.VFESpacer">1.6/Mods and Shit/VFE Spacer</li>
 		<li IfModActive="cixwow.vfespaceraddon">1.6/Mods and Shit/VFE Spacer Addon</li>
@@ -56,8 +65,28 @@
 		<li IfModActiveAll="ponpeco.pfkidsroom,VanillaExpanded.VFEArt">1.6/Mods and Shit/Ponpeco Kids Room + VFE Art</li>
 		<li IfModActive="yayoflake.mahjong">1.6/Mods and Shit/Mahjong Table</li>
 		<li IfModActive="mo.decorationsluxury">1.6/Mods and Shit/Banquet Decorations</li>
+		<li IfModActive="scpchemfuel.appliances">1.6/Mods and Shit/Appliances Expanded</li>
+		<li IfModActiveAll="scpchemfuel.appliances,Ludeon.RimWorld.Ideology">1.6/Mods and Shit/Appliances Expanded + Ideology</li>
+		<li IfModActive="zal.lanterns">1.6/Mods and Shit/Lanterns Continued</li>
+		<li IfModActive="VanillaExpanded.HelixienGas">1.6/Mods and Shit/Helixien Gas</li>
+		<li IfModActiveAll="VanillaExpanded.VFECore,rebuild.cotr.doorsandcorners">1.6/Mods and Shit/VE Furniture + Rebuild DAC</li>
+		<li IfModActive="Wanzi.BigGraves">1.6/Mods and Shit/Big Graves and Sarcophaguses</li>
+		<li IfModActive="Van.DACrypts,Harkon.BiotechAddOn.MedievalDeathrestCoffin,Wanzi.BigGraves">1.6/Mods and Shit/Coffin Project</li>
+		<li IfModActive="Harkon.BiotechAddOn.MedievalDeathrestCoffin">1.6/Mods and Shit/Medieval Deathrest Coffin</li>
+		<li IfModActive="overpl.AnimalSarcophagus">1.6/Mods and Shit/Animal Sarcophagus</li>
+		<li IfModActive="drilledhead.MyDogsHouse">1.6/Mods and Shit/MyDogsHouse</li>
+		<li IfModActive="kaitorisenkou.BallGames">1.6/Mods and Shit/BallGames</li>
+		<li IfModActive="Aelanna.EccentricTech.BeachStuff">1.6/Mods and Shit/Eccentric Extras Beach Stuff</li>
+		<li IfModActive="MOs.Victoriandecorations">1.6/Mods and Shit/Victorian Decorations</li>
+		<li IfModActive="det.boglegs">1.6/Mods and Shit/Det Boglegs</li>
 		<li IfModActive="3hstltd.signs">1.6/Mods and Shit/Bill Signs</li>
 		<li IfModActive="biomesteam.biomesfossils">1.6/Mods and Shit/Biomes Fossils</li>
+		<li IfModActive="RedMattis.BSFurniture">1.6/Mods and Shit/Big and Small Furniture</li>
+		<li IfModActiveAll="RedMattis.BSFurniture,Ludeon.RimWorld.Biotech">1.6/Mods and Shit/Big and Small Furniture + Biotech</li>
+		<li IfModActiveAll="RedMattis.BSFurniture,VanillaExpanded.VFECore">1.6/Mods and Shit/Big and Small Furniture + VE Furniture</li>
+		<li IfModActiveAll="RedMattis.BSFurniture,Animal.BedsNew">1.6/Mods and Shit/Big and Small Furniture + More Animal Beds</li>
+		<li IfModActiveAll="RedMattis.BSFurniture,rebuild.cotr.doorsandcorners">1.6/Mods and Shit/Big and Small Furniture + Rebuild DAC</li>
+		<li IfModActiveAll="RedMattis.BSFurniture,tug.Minotaur">1.6/Mods and Shit/Big and Small Furniture + Roo's Minotaur Xenotype</li>
 		<li IfModActive="ponpeco.pfkidsroom">1.6/Mods and Shit/Ponpeco Kids Room</li>
 		<li IfModActive="ponpeco.PFSF">1.6/Mods and Shit/Ponpeco Sci-Fi</li>
 		<li IfModActiveAll="scurvyez.stevesdoors,ponpeco.PFSF">1.6/Mods and Shit/Steve's Doors + Ponpeco Sci-Fi</li>

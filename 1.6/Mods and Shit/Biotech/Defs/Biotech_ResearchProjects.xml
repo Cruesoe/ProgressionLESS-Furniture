@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Crib</defName>
+		<label>Crib</label>
+		<description>Build safe infant beds with rails for babies to sleep in.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.50</researchViewY>
+		<prerequisites>
+			<li MayRequire="ferny.ProgressionEducation">Ferny_RoughCrib</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_BabyToys</defName>
+		<label>Baby toys</label>
+		<description>Build soft toys and nursery decorations for babies to enjoy.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>4.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+
+</Defs>

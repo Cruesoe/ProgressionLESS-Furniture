@@ -73,4 +73,20 @@
 		<researchViewY>3.00</researchViewY>
 	</ResearchProjectDef>
 
+	<ResearchProjectDef>
+		<defName>Ferny_ComfyBeds</defName>
+		<label>Comfy beds</label>
+		<description>Build softer, more comfortable beds for better rest.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>4.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_ClothBeds</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+
 </Defs>

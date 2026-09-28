@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_LightBall</defName>
+		<label>Light ball</label>
+		<description>Create a rotating spectacle of colorful illumination for dance floors and celebrations.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>30</researchViewX>
+		<researchViewY>1.50</researchViewY>
+		<prerequisites>
+			<li>Ferny_StandingLamp</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_Loudspeaker</defName>
+		<label>Loudspeaker</label>
+		<description>Amplify music across gathering spaces to accompany dances and celebrations.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>30</researchViewX>
+		<researchViewY>2.00</researchViewY>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+</Defs>
