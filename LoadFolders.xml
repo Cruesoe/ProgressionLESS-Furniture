@@ -3,6 +3,9 @@
 	<v1.6>
 		<li>/</li>
 		<li>1.6</li>
+		<li IfModActive="ferny.progressioneducation,cruesoe.progressionlesseducation" IfModActiveAll="VanillaExpanded.VFECore" IfModNotActive="DankPyon.Medieval.Overhaul">1.6/Mods and Shit/Progression Education + VE Furniture</li>
+		<li IfModActive="ferny.progressioneducation,cruesoe.progressionlesseducation" IfModActiveAll="DankPyon.Medieval.Overhaul">1.6/Mods and Shit/Progression Education</li>
+		<li IfModActive="ferny.progressioneducation,cruesoe.progressionlesseducation" IfModNotActive="VanillaExpanded.VFECore,DankPyon.Medieval.Overhaul">1.6/Mods and Shit/Progression Education</li>
 		<li IfModActive="ferny.progressionarsenal,cruesoe.progressionlessarsenal">1.6/Mods and Shit/Progression Arsenal</li>
 		<li IfModActive="ferny.noderesearch">1.6/Mods and Shit/Node Research</li>
 		<li IfModActive="sarg.alphapropsparks">1.6/Mods and Shit/AP Parks</li>
