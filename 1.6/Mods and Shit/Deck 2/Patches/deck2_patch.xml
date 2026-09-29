@@ -9,7 +9,7 @@
 			<value>
 				<researchPrerequisites>
 					<li>Ferny_Floors</li>
-					<li MayRequire="ferny.progressionarsenal,vanillaexpanded.vfesecurity">Ferny_Platform</li>
+					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="ferny.progressionarsenal,cruesoe.progressionlessarsenal">Ferny_Platform</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -19,7 +19,7 @@
 			<value>
 				<researchPrerequisites>
 					<li>Ferny_Floors</li>
-					<li MayRequire="ferny.progressionarsenal,vanillaexpanded.vfesecurity">Ferny_Platform</li>
+					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="ferny.progressionarsenal,cruesoe.progressionlessarsenal">Ferny_Platform</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
