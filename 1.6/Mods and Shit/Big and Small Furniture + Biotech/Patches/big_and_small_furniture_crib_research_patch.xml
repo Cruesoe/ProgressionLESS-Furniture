@@ -11,7 +11,7 @@
 				<value>
 					<researchPrerequisites Inherit="False">
 						<li>Ferny_Crib</li>
-						<li MayRequire="ferny.ProgressionEducation">Ferny_RoughCrib</li>
+						<li MayRequireAnyOf="ferny.ProgressionEducation,cruesoe.progressionlesseducation">Ferny_RoughCrib</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -21,7 +21,7 @@
 				<value>
 					<researchPrerequisites Inherit="False">
 						<li>Ferny_Crib</li>
-						<li MayRequire="ferny.ProgressionEducation">Ferny_RoughCrib</li>
+						<li MayRequireAnyOf="ferny.ProgressionEducation,cruesoe.progressionlesseducation">Ferny_RoughCrib</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
