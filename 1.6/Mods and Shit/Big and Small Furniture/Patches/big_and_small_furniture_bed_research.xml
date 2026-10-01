@@ -67,7 +67,9 @@
 	</Operation>
 
 	<!-- Royal beds -->
-	<Operation Class="PatchOperationSequence">
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="MF_RoyalFurniture"]</xpath>
+		<nomatch Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationRemove">
 				<success>Always</success>
@@ -92,6 +94,7 @@
 				</value>
 			</li>
 		</operations>
+		</nomatch>
 	</Operation>
 
 	<!-- Hospital and titan beds -->

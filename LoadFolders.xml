@@ -90,6 +90,7 @@
 		<li IfModActiveAll="RedMattis.BSFurniture,Animal.BedsNew">1.6/Mods and Shit/Big and Small Furniture + More Animal Beds</li>
 		<li IfModActiveAll="RedMattis.BSFurniture,rebuild.cotr.doorsandcorners">1.6/Mods and Shit/Big and Small Furniture + Rebuild DAC</li>
 		<li IfModActiveAll="RedMattis.BSFurniture,tug.Minotaur">1.6/Mods and Shit/Big and Small Furniture + Roo's Minotaur Xenotype</li>
+		<li IfModActive="DanZinagri.BSFurnitureMOGiantBeds">1.6/Mods and Shit/Big and Small More Medieval Beds</li>
 		<li IfModActive="ponpeco.pfkidsroom">1.6/Mods and Shit/Ponpeco Kids Room</li>
 		<li IfModActive="ponpeco.PFSF">1.6/Mods and Shit/Ponpeco Sci-Fi</li>
 		<li IfModActiveAll="scurvyez.stevesdoors,ponpeco.PFSF">1.6/Mods and Shit/Steve's Doors + Ponpeco Sci-Fi</li>
