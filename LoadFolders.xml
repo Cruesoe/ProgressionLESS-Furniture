@@ -3,9 +3,7 @@
 	<v1.6>
 		<li>/</li>
 		<li>1.6</li>
-		<li IfModActive="ferny.progressioneducation,cruesoe.progressionlesseducation" IfModActiveAll="VanillaExpanded.VFECore" IfModNotActive="DankPyon.Medieval.Overhaul">1.6/Mods and Shit/Progression Education + VE Furniture</li>
-		<li IfModActive="ferny.progressioneducation,cruesoe.progressionlesseducation" IfModActiveAll="DankPyon.Medieval.Overhaul">1.6/Mods and Shit/Progression Education</li>
-		<li IfModActive="ferny.progressioneducation,cruesoe.progressionlesseducation" IfModNotActive="VanillaExpanded.VFECore,DankPyon.Medieval.Overhaul">1.6/Mods and Shit/Progression Education</li>
+		<li IfModActive="ferny.progressioneducation,cruesoe.progressionlesseducation">1.6/Mods and Shit/Progression Education</li>
 		<li IfModActive="ferny.progressionarsenal,cruesoe.progressionlessarsenal">1.6/Mods and Shit/Progression Arsenal</li>
 		<li IfModActive="ferny.noderesearch">1.6/Mods and Shit/Node Research</li>
 		<li IfModActive="sarg.alphapropsparks">1.6/Mods and Shit/AP Parks</li>
@@ -48,6 +46,7 @@
 		<li IfModActive="Mumei.Signs">1.6/Mods and Shit/Signs and Comments</li>
 		<li IfModActive="scurvyez.stevesdoors">1.6/Mods and Shit/Steve's Doors</li>
 		<li IfModActive="Scurvyez.StevesWalls">1.6/Mods and Shit/Steve's Walls</li>
+		<li IfModActive="VanillaExpanded.VFECore" IfModNotActive="DankPyon.Medieval.Overhaul">1.6/Mods and Shit/VE Furniture Without Medieval Overhaul</li>
 		<li IfModActive="VanillaExpanded.VFECore">1.6/Mods and Shit/VE Furniture</li>
 		<li IfModActiveAll="VanillaExpanded.VFECore,DankPyon.Medieval.Overhaul">1.6/Mods and Shit/VE Furniture + Medieval Overhaul</li>
 		<li IfModActive="farxmai2.vanillafurnitureexpandedpack">1.6/Mods and Shit/VE Furniture Additional Pack</li>

@@ -44,21 +44,6 @@
 		</tags>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_AnimalBed</defName>
-		<label>Animal beds</label>
-		<description>Build sleeping boxes, beds and cat towers for animals.</description>
-		<baseCost>300</baseCost>
-		<techLevel>Neolithic</techLevel>
-		<researchViewX>1.00</researchViewX>
-		<researchViewY>8.90</researchViewY>
-		<tags>
-			<li>ClassicStart</li>
-		</tags>
-		<prerequisites>
-			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
-		</prerequisites>
-	</ResearchProjectDef>
-	<ResearchProjectDef>
 		<defName>Ferny_Tables</defName>
 		<label>Tables</label>
 		<description>Build tables for colonists to gather, eat, and spend time around.</description>
@@ -76,14 +61,17 @@
 	<ResearchProjectDef>
 		<defName>Ferny_Bedroll</defName>
 		<label>Beds</label>
-		<description>Build bedrolls and simple beds of wicker and straw.</description>
-		<baseCost>150</baseCost>
+		<description>Build bedrolls, simple beds, and sleeping boxes and beds for animals.</description>
+		<baseCost>300</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>1.00</researchViewX>
 		<researchViewY>8.20</researchViewY>
 		<prerequisites>
 			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
 		<defName>Ferny_Chair</defName>

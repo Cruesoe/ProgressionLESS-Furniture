@@ -195,7 +195,7 @@
                     <xpath>/Defs/ThingDef[defName="AnimalSleepingBox"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_AnimalBed</li>
+                        <li>Ferny_Bedroll</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -203,7 +203,7 @@
                     <xpath>/Defs/ThingDef[defName="AnimalSleepingBox"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_AnimalBed</li>
+                        <li>Ferny_Bedroll</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -215,7 +215,7 @@
                     <xpath>/Defs/ThingDef[defName="AnimalBed"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_AnimalBed</li>
+                        <li>Ferny_Bedroll</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -223,7 +223,7 @@
                     <xpath>/Defs/ThingDef[defName="AnimalBed"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_AnimalBed</li>
+                        <li>Ferny_Bedroll</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>

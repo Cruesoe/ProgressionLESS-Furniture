@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- Loads with Education when Medieval Overhaul is active or VE Furniture is not: the rough crib folds into Beds -->
+  <!-- Loads with Education: the rough crib folds into Beds -->
   <Operation Class="PatchOperationSequence">
     <operations>
       <li Class="PatchOperationReplace">
@@ -8,12 +8,6 @@
         <xpath>Defs//*[self::researchPrerequisites or self::prerequisites or self::hiddenPrerequisites]/li[normalize-space(text())="Ferny_RoughCrib"]</xpath>
         <value>
           <li>Ferny_Bedroll</li>
-        </value>
-      </li>
-      <li Class="PatchOperationReplace">
-        <xpath>Defs/ResearchProjectDef[defName="Ferny_Bedroll"]/baseCost</xpath>
-        <value>
-          <baseCost>200</baseCost>
         </value>
       </li>
       <li Class="PatchOperationRemove">

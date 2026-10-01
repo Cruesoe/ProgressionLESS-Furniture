@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Beds holds Medieval Overhaul's straw beds, which came from a 400-point project -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Ferny_Bedroll"]/baseCost</xpath>
+    <value>
+      <baseCost>400</baseCost>
+    </value>
+  </Operation>
+</Patch>
