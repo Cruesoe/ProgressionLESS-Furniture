@@ -3,6 +3,8 @@
 	<v1.6>
 		<li>/</li>
 		<li>1.6</li>
+		<li IfModActive="Heremeus.MedicalDissection">1.6/Mods and Shit/Medical Dissection</li>
+		<li IfModActive="sarg.alphacrafts">1.6/Mods and Shit/Alpha Crafts</li>
 		<li IfModActive="ferny.progressioneducation,cruesoe.progressionlesseducation">1.6/Mods and Shit/Progression Education</li>
 		<li IfModActive="ferny.progressionarsenal,cruesoe.progressionlessarsenal">1.6/Mods and Shit/Progression Arsenal</li>
 		<li IfModActive="ferny.noderesearch">1.6/Mods and Shit/Node Research</li>
@@ -92,6 +94,7 @@
 		<li IfModActive="DanZinagri.BSFurnitureMOGiantBeds">1.6/Mods and Shit/Big and Small More Medieval Beds</li>
 		<li IfModActive="ponpeco.pfkidsroom">1.6/Mods and Shit/Ponpeco Kids Room</li>
 		<li IfModActive="ponpeco.PFSF">1.6/Mods and Shit/Ponpeco Sci-Fi</li>
+		<li IfModActive="Rooboid.Paintings.Ex">1.6/Mods and Shit/Roo's Painting Expansion</li>
 		<li IfModActiveAll="scurvyez.stevesdoors,ponpeco.PFSF">1.6/Mods and Shit/Steve's Doors + Ponpeco Sci-Fi</li>
 		<li IfModActiveAll="rebuild.cotr.doorsandcorners,ponpeco.PFSF">1.6/Mods and Shit/Rebuild DAC + Ponpeco Sci-Fi</li>
 		</v1.6>
