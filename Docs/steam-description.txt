@@ -33,7 +33,10 @@ Keeps all of the original's mod support, including:
 [*]Ponpeco Kids Room and Sci-Fi, Erin's Decorations and Japanese Furniture, Victorian Decorations, Museums and Clocks
 [*]Appliances Expanded, Helixien Gas, Lanterns Continued, Biomes Fossils, Deck 2, BallGames, Mahjong Table and Beach Stuff
 [*]Flooring Floors, Outland More Floors, Oracle's Miscellania, Gerrymon Nautian Style and many more decoration mods
+[*]Alpha Crafts, Medical Dissection and Roo's Painting Expansion
 [*]Progression: Arsenal, Node Research and the rest of the Progression suite
 [/list]
 
 [b]Replaces the original. Don't use both.[/b]
+
+[b]Switching mid-game isn't recommended.[/b] Many of the original's research projects are merged or removed, so swapping Progression: Furniture for this fork in an existing save can lose research progress. Start a new game when you switch.
