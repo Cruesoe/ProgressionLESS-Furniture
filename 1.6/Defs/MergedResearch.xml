@@ -6,8 +6,8 @@
 		<description>Build goals, nets and balls for sports.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>20.00</researchViewX>
-		<researchViewY>4.90</researchViewY>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>8.90</researchViewY>
 		<prerequisites>
 			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 		</prerequisites>
@@ -21,8 +21,8 @@
 		<description>Build braziers and chemlamps to light your colony without electricity.</description>
 		<baseCost>300</baseCost>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>15.00</researchViewX>
-		<researchViewY>0.00</researchViewY>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>7.50</researchViewY>
 		<tags>
 			<li>ClassicStart</li>
 		</tags>
@@ -36,8 +36,8 @@
 		<description>Build cribs, toys, mobiles and buntings for children.</description>
 		<baseCost>400</baseCost>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>16.00</researchViewX>
-		<researchViewY>0.00</researchViewY>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>8.90</researchViewY>
 		<tags>
 			<li>ClassicStart</li>
 		</tags>
@@ -51,8 +51,8 @@
 		<description>Build personal computers, industrial radios, arcade machines and loudspeakers.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>22.00</researchViewX>
-		<researchViewY>2.10</researchViewY>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>7.50</researchViewY>
 		<prerequisites>
 			<li>Electricity</li>
 		</prerequisites>
@@ -64,8 +64,8 @@
 		<baseCost>900</baseCost>
 		<tab>Main</tab>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>22.00</researchViewX>
-		<researchViewY>0.70</researchViewY>
+		<researchViewX>11.00</researchViewX>
+		<researchViewY>6.80</researchViewY>
 	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="rebuild.cotr.doorsandcorners,kongkim.panelsframes,eeg.architecture">
 		<defName>Ferny_WindowWall</defName>
@@ -73,7 +73,7 @@
 		<description>Build window walls, prison walls, door frames and eaves.</description>
 		<baseCost>300</baseCost>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>19.00</researchViewX>
-		<researchViewY>0.00</researchViewY>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>10.30</researchViewY>
 	</ResearchProjectDef>
 </Defs>

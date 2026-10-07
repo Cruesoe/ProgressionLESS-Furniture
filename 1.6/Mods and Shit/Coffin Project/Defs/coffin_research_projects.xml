@@ -7,8 +7,8 @@
 		<description>Build enclosed coffins for solemn burials and funerary spaces.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>18.00</researchViewX>
-		<researchViewY>0.00</researchViewY>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>9.60</researchViewY>
 		<prerequisites>
 			<li>Ferny_Sarcophagus</li>
 		</prerequisites>
