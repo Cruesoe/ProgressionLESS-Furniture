@@ -95,8 +95,8 @@
 		<description>Build simple games such as hoopstone rings and Game-of-Ur boards.</description>
 		<baseCost>100</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>0.00</researchViewX>
-		<researchViewY>8.90</researchViewY>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>7.50</researchViewY>
 		<tags>
 			<li>ClassicStart</li>
 		</tags>
@@ -137,8 +137,8 @@
 		<description>Build burial chambers for colonists, nobles, and beloved dead.</description>
 		<baseCost>400</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>1.00</researchViewX>
-		<researchViewY>9.60</researchViewY>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>7.50</researchViewY>
 		<prerequisites>
 			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 		</prerequisites>
