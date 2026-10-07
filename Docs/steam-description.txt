@@ -1,9 +1,8 @@
-[h1]ProgressionLESS: Furniture[/h1]
 [b]All the Progression goodness, less research.[/b]
 
 [i]This is a fork of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3771246586]Progression: Furniture[/url] by ferny. Huge thanks to ferny for the original mod and all the Progression work this builds on. For a really good modpack, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585]The Progression Modpack[/url].[/i]
 
-[h2]What it does[/h2]
+[h2]Features[/h2]
 [list]
 [*]Integrates furniture and decoration mods into vanilla progression, so each piece unlocks in its proper tech era.
 [*]Floors, beds, tables, chairs, games, lights and electronics all have a place in the research tree, from tribal bedrolls to spacer furniture.
@@ -13,10 +12,10 @@
 [h2]Why "LESS"?[/h2]
 Progression: Furniture adds up to [b]88 research projects[/b] depending on your mods. This fork groups them into [b]at most 24[/b] themed projects:
 [list]
-[*][b]Neolithic:[/b] Tables, Chairs, Floors, Columns and walls, Beds, Plant pots, Sarcophagus, Games
-[*][b]Medieval:[/b] Cloth beds, Table games, Nursery, Architecture, Braziers and lamps, Coffin
-[*][b]Industrial:[/b] Comfort furniture, Gaming tables, Chemfuel lights, Sports, Alarm clocks, Electric lights, Display light, Electronics, Advanced electronics
-[*][b]Spacer:[/b] Spacer doors and frames
+[*][b]Neolithic:[/b] Tables, Chairs, Floors, Columns and walls, Beds, Plant pots, Sarcophagus, Games.
+[*][b]Medieval:[/b] Cloth beds, Table games, Nursery, Architecture, Braziers and lamps, Coffin.
+[*][b]Industrial:[/b] Comfort furniture, Gaming tables, Chemfuel lights, Sports, Alarm clocks, Electric lights, Display light, Electronics, Advanced electronics.
+[*][b]Spacer:[/b] Spacer doors and frames.
 [/list]
 Beds covers bedrolls, simple beds and animal beds, including Vanilla Furniture Expanded's simple beds. A few items return to the vanilla or mod research they came from, such as dressers and clocks to Complex furniture, and spacer furniture to Vanilla Furniture Expanded's Spacer research.
 
@@ -25,16 +24,16 @@ Everything stays in the same era and at the same stage within it, and still need
 [h2]Compatibility[/h2]
 Keeps all of the original's mod support, including:
 [list]
-[*]Royalty, Ideology, Biotech and Odyssey
-[*]Vanilla Furniture Expanded (with the Additional Pack, Spacer and Spacer Addon), VFE Architect, Art, Classical, Settlers, VE Genetics and VQE Ancients
-[*]Medieval Overhaul, Dark Ages crypts, Big Graves and Sarcophaguses, Medieval Deathrest Coffin and Animal Sarcophagus
-[*]Big and Small Furniture (with More Medieval Overhaul Beds), Polyamory Beds, Advanced Poly Beds, More Animal Beds, Repair Bed and MyDogsHouse
-[*]ReBuild Doors and Corners, Panels and Frames, Architecture of the Rim, Steve's Walls and Steve's Doors
-[*]Ponpeco Kids Room and Sci-Fi, Erin's Decorations and Japanese Furniture, Victorian Decorations, Museums and Clocks
-[*]Appliances Expanded, Helixien Gas, Lanterns Continued, Biomes Fossils, Deck 2, BallGames, Mahjong Table and Beach Stuff
-[*]Flooring Floors, Outland More Floors, Oracle's Miscellania, Gerrymon Nautian Style and many more decoration mods
-[*]Alpha Crafts, Medical Dissection and Roo's Painting Expansion
-[*]Progression: Arsenal, Node Research and the rest of the Progression suite
+[*]Royalty, Ideology, Biotech and Odyssey.
+[*]Vanilla Furniture Expanded (with the Additional Pack, Spacer and Spacer Addon), VFE Architect, Art, Classical, Settlers, VE Genetics and VQE Ancients.
+[*]Medieval Overhaul, Dark Ages crypts, Big Graves and Sarcophaguses, Medieval Deathrest Coffin and Animal Sarcophagus.
+[*]Big and Small Furniture (with More Medieval Overhaul Beds), Polyamory Beds, Advanced Poly Beds, More Animal Beds, Repair Bed and MyDogsHouse.
+[*]ReBuild Doors and Corners, Panels and Frames, Architecture of the Rim, Steve's Walls and Steve's Doors.
+[*]Ponpeco Kids Room and Sci-Fi, Erin's Decorations and Japanese Furniture, Victorian Decorations, Museums and Clocks.
+[*]Appliances Expanded, Helixien Gas, Lanterns Continued, Biomes Fossils, Deck 2, BallGames, Mahjong Table and Beach Stuff.
+[*]Flooring Floors, Outland More Floors, Oracle's Miscellania, Gerrymon Nautian Style and many more decoration mods.
+[*]Alpha Crafts, Medical Dissection and Roo's Painting Expansion.
+[*]Progression: Arsenal, Node Research and the rest of the Progression suite.
 [/list]
 
 [b]Replaces the original. Don't use both.[/b]
