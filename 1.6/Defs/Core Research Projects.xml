@@ -6,8 +6,8 @@
 		<description>Build small pots capable of displaying beautiful decorative flowers.</description>
 		<baseCost>200</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>0.00</researchViewX>
-		<researchViewY>8.20</researchViewY>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>4.20</researchViewY>
 		<tags>
 			<li>ClassicStart</li>
 		</tags>
@@ -22,8 +22,8 @@
 		<description>Build comfortable cloth beds, including comfy beds.</description>
 		<baseCost>550</baseCost>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>2.00</researchViewX>
-		<researchViewY>8.20</researchViewY>
+		<researchViewX>16.00</researchViewX>
+		<researchViewY>2.10</researchViewY>
 		<tags>
 			<li>ClassicStart</li>
 		</tags>
@@ -34,8 +34,8 @@
 		<description>Build couches, armchairs, ergonomic chairs and padded benches.</description>
 		<baseCost>700</baseCost>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>3.00</researchViewX>
-		<researchViewY>7.50</researchViewY>
+		<researchViewX>20.00</researchViewX>
+		<researchViewY>2.10</researchViewY>
 		<prerequisites>
 			<li>Ferny_Chair</li>
 		</prerequisites>
@@ -49,8 +49,8 @@
 		<description>Build tables for colonists to gather, eat, and spend time around.</description>
 		<baseCost>300</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>1.00</researchViewX>
-		<researchViewY>6.80</researchViewY>
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>1.40</researchViewY>
 		<prerequisites>
 			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 		</prerequisites>
@@ -64,8 +64,8 @@
 		<description>Build bedrolls, simple beds, and sleeping boxes and beds for animals.</description>
 		<baseCost>300</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>1.00</researchViewX>
-		<researchViewY>8.20</researchViewY>
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>4.90</researchViewY>
 		<prerequisites>
 			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 		</prerequisites>
@@ -79,8 +79,8 @@
 		<description>Build chairs, stools, benches and sitting cushions.</description>
 		<baseCost>150</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>1.00</researchViewX>
-		<researchViewY>7.50</researchViewY>
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>0.70</researchViewY>
 		<prerequisites>
 			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 		</prerequisites>
@@ -95,8 +95,8 @@
 		<description>Build simple games such as hoopstone rings and Game-of-Ur boards.</description>
 		<baseCost>100</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>0.00</researchViewX>
-		<researchViewY>8.90</researchViewY>
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>2.10</researchViewY>
 		<tags>
 			<li>ClassicStart</li>
 		</tags>
@@ -107,8 +107,8 @@
 		<description>Build columns and decorative walls.</description>
 		<baseCost>200</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>0.00</researchViewX>
-		<researchViewY>7.50</researchViewY>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
 		<prerequisites>
 			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Construction</li>
 		</prerequisites>
@@ -122,8 +122,8 @@
 		<description>Build floors, bridges and decks.</description>
 		<baseCost>200</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>0.00</researchViewX>
-		<researchViewY>6.80</researchViewY>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
 		<prerequisites>
 			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Construction</li>
 		</prerequisites>
@@ -137,8 +137,8 @@
 		<description>Build burial chambers for colonists, nobles, and beloved dead.</description>
 		<baseCost>400</baseCost>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>1.00</researchViewX>
-		<researchViewY>9.60</researchViewY>
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
 		<prerequisites>
 			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 		</prerequisites>
@@ -152,8 +152,8 @@
 		<description>Build tables for chess, cards, dice and other table games.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>2.00</researchViewX>
-		<researchViewY>6.80</researchViewY>
+		<researchViewX>14.00</researchViewX>
+		<researchViewY>4.90</researchViewY>
 		<prerequisites>
 			<li>Ferny_Tables</li>
 		</prerequisites>
@@ -167,8 +167,8 @@
 		<description>Build poker, billiards and roulette tables.</description>
 		<baseCost>700</baseCost>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>3.00</researchViewX>
-		<researchViewY>6.80</researchViewY>
+		<researchViewX>20.00</researchViewX>
+		<researchViewY>1.40</researchViewY>
 		<prerequisites>
 			<li>Ferny_Tables</li>
 		</prerequisites>
@@ -182,8 +182,8 @@
 		<description>Build electric standing, wall, desk and sun lamps and decorative lights.</description>
 		<baseCost>300</baseCost>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>8.00</researchViewX>
-		<researchViewY>6.80</researchViewY>
+		<researchViewX>21.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
 		<prerequisites>
 			<li>Electricity</li>
 		</prerequisites>

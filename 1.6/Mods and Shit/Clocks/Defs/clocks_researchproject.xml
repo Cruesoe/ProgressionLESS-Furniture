@@ -6,8 +6,8 @@
 		<description>Build mechanical and electronic alarm clocks.</description>
 		<baseCost>300</baseCost>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>3.00</researchViewX>
-		<researchViewY>9.60</researchViewY>
+		<researchViewX>20.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
 		<prerequisites>
 			<li>ComplexFurniture</li>
 		</prerequisites>

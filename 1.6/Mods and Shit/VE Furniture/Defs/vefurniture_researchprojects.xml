@@ -6,8 +6,8 @@
 		<description>Build modern computers and longwave radios.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>9.00</researchViewX>
-		<researchViewY>7.50</researchViewY>
+		<researchViewX>23.00</researchViewX>
+		<researchViewY>2.10</researchViewY>
 		<prerequisites>
 			<li>Ferny_PersonalComputer</li>
 		</prerequisites>
