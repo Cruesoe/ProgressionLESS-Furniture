@@ -1,21 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <OutputType>Library</OutputType>
-    <TargetFramework>net48</TargetFramework>
     <RootNamespace>ProgressionLESSFurniture</RootNamespace>
     <AssemblyName>ProgressionLESSFurniture</AssemblyName>
-    <LangVersion>latest</LangVersion>
-    <Deterministic>true</Deterministic>
-    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <OutputPath>..\1.6\Assemblies\</OutputPath>
-    <DebugType>none</DebugType>
-    <Optimize>true</Optimize>
+    <UseHarmony>false</UseHarmony>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.6.*-*" />
-  </ItemGroup>
-
 </Project>
