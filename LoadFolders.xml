@@ -4,6 +4,7 @@
 		<li>/</li>
 		<li>Common</li>
 		<li>1.6</li>
+		<li IfModActiveAll="EvilEyeGuy.CustomBaseFramework,DankPyon.Medieval.Overhaul">Common/Mods and Shit/Custom Base Framework + Medieval Overhaul</li>
 		<li IfModActive="Heremeus.MedicalDissection">Common/Mods and Shit/Medical Dissection</li>
 		<li IfModActive="sarg.alphacrafts">Common/Mods and Shit/Alpha Crafts</li>
 		<li IfModActive="ferny.progressioneducation,cruesoe.progressionlesseducation">Common/Mods and Shit/Progression Education</li>
@@ -103,6 +104,7 @@
 		<li>/</li>
 		<li>Common</li>
 		<li>1.7</li>
+		<li IfModActiveAll="EvilEyeGuy.CustomBaseFramework,DankPyon.Medieval.Overhaul">Common/Mods and Shit/Custom Base Framework + Medieval Overhaul</li>
 		<li IfModActive="Heremeus.MedicalDissection">Common/Mods and Shit/Medical Dissection</li>
 		<li IfModActive="sarg.alphacrafts">Common/Mods and Shit/Alpha Crafts</li>
 		<li IfModActive="ferny.progressioneducation,cruesoe.progressionlesseducation">Common/Mods and Shit/Progression Education</li>
