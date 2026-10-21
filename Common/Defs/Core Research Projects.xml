@@ -53,6 +53,7 @@
 		<researchViewY>6.80</researchViewY>
 		<prerequisites>
 			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+			<li>Ferny_Column</li>
 		</prerequisites>
 		<tags>
 			<li>ClassicStart</li>
@@ -68,6 +69,7 @@
 		<researchViewY>8.20</researchViewY>
 		<prerequisites>
 			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+			<li>Ferny_Column</li>
 		</prerequisites>
 		<tags>
 			<li>ClassicStart</li>
@@ -83,6 +85,7 @@
 		<researchViewY>7.50</researchViewY>
 		<prerequisites>
 			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+			<li>Ferny_Column</li>
 		</prerequisites>
 		<tags>
 			<li>ClassicStart</li>
@@ -103,8 +106,8 @@
 	</ResearchProjectDef>
 	<ResearchProjectDef>
 		<defName>Ferny_Column</defName>
-		<label>Columns and walls</label>
-		<description>Build columns and decorative walls.</description>
+		<label>Carpentry</label>
+		<description>Work wood into columns, decorative walls and the joints that furniture is built from.</description>
 		<baseCost>200</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>0.00</researchViewX>

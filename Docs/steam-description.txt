@@ -12,7 +12,7 @@
 [h2]Why "LESS"?[/h2]
 Progression: Furniture adds up to [b]88 research projects[/b] depending on your mods. This fork groups them into [b]at most 24[/b] themed projects:
 [list]
-[*][b]Neolithic:[/b] Tables, Chairs, Floors, Columns and walls, Beds, Plant pots, Sarcophagus, Games.
+[*][b]Neolithic:[/b] Tables, Chairs, Floors, Carpentry, Beds, Plant pots, Sarcophagus, Games.
 [*][b]Medieval:[/b] Cloth beds, Table games, Nursery, Architecture, Braziers and lamps, Coffin.
 [*][b]Industrial:[/b] Comfort furniture, Gaming tables, Chemfuel lights, Sports, Alarm clocks, Electric lights, Display light, Electronics, Advanced electronics.
 [*][b]Spacer:[/b] Spacer doors and frames.
