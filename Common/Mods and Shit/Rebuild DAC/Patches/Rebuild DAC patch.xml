@@ -47,6 +47,24 @@
                     </value>
                 </Operation>
 
-
-
+	<!-- Fine wood floor builds with the other fine floors; Progression: Core gives it VFE Tribals' Construction -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/TerrainDef[@Name="RB_FinePlankWoodBase"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/TerrainDef[@Name="RB_FinePlankWoodBase"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Floors</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/TerrainDef[@Name="RB_FinePlankWoodBase"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Floors</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
 </Patch>
