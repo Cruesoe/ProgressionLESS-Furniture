@@ -107,7 +107,7 @@
 	<ResearchProjectDef>
 		<defName>Ferny_Column</defName>
 		<label>Carpentry</label>
-		<description>Work wood into columns, decorative walls and the joints that furniture is built from.</description>
+		<description>Work wood into walls, columns and the joints that furniture is built from.</description>
 		<baseCost>200</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>0.00</researchViewX>
