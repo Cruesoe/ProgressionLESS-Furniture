@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- The plain embrasure builds with Carpentry; the rustic embrasure stays with the other ReBuild walls -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="CE_Embrasure"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Embrasure"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Column</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="CE_Embrasure"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Column</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+</Patch>

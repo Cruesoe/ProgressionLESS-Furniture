@@ -59,6 +59,7 @@
 		<li IfModActive="Neronix17.Outland.MoreFloors">Common/Mods and Shit/Outland More Floors</li>
 		<li IfModActive="ks.flooringfloors">Common/Mods and Shit/Flooring Floors</li>
 		<li IfModActive="vanillaexpanded.vfearchitect">Common/Mods and Shit/VFE Architect</li>
+		<li IfModActive="Harkon.VEAddOn.VanillaExpandedExtraEmbrasures">Common/Mods and Shit/Extra Embrasures</li>
 		<li IfModActive="VanillaExpanded.VFEArt">Common/Mods and Shit/VFE Art</li>
 		<li IfModActive="oracle.miscellania">Common/Mods and Shit/Oracle Miscellania</li>
 		<li IfModActiveAll="oracle.miscellania,Ludeon.RimWorld.Royalty">Common/Mods and Shit/Oracle Miscellania + Royalty</li>
@@ -159,6 +160,7 @@
 		<li IfModActive="Neronix17.Outland.MoreFloors">Common/Mods and Shit/Outland More Floors</li>
 		<li IfModActive="ks.flooringfloors">Common/Mods and Shit/Flooring Floors</li>
 		<li IfModActive="vanillaexpanded.vfearchitect">Common/Mods and Shit/VFE Architect</li>
+		<li IfModActive="Harkon.VEAddOn.VanillaExpandedExtraEmbrasures">Common/Mods and Shit/Extra Embrasures</li>
 		<li IfModActive="VanillaExpanded.VFEArt">Common/Mods and Shit/VFE Art</li>
 		<li IfModActive="oracle.miscellania">Common/Mods and Shit/Oracle Miscellania</li>
 		<li IfModActiveAll="oracle.miscellania,Ludeon.RimWorld.Royalty">Common/Mods and Shit/Oracle Miscellania + Royalty</li>
