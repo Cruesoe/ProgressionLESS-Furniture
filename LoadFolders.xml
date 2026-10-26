@@ -100,6 +100,7 @@
 		<li IfModActive="Rooboid.Paintings.Ex">Common/Mods and Shit/Roo's Painting Expansion</li>
 		<li IfModActiveAll="scurvyez.stevesdoors,ponpeco.PFSF">Common/Mods and Shit/Steve's Doors + Ponpeco Sci-Fi</li>
 		<li IfModActiveAll="rebuild.cotr.doorsandcorners,ponpeco.PFSF">Common/Mods and Shit/Rebuild DAC + Ponpeco Sci-Fi</li>
+		<li IfModActive="ferny.CaptureExpansion">Common/Mods and Shit/Capture Expansion</li>
 		</v1.6>
 	<v1.7>
 		<li>/</li>
@@ -201,5 +202,6 @@
 		<li IfModActive="Rooboid.Paintings.Ex">Common/Mods and Shit/Roo's Painting Expansion</li>
 		<li IfModActiveAll="scurvyez.stevesdoors,ponpeco.PFSF">Common/Mods and Shit/Steve's Doors + Ponpeco Sci-Fi</li>
 		<li IfModActiveAll="rebuild.cotr.doorsandcorners,ponpeco.PFSF">Common/Mods and Shit/Rebuild DAC + Ponpeco Sci-Fi</li>
+		<li IfModActive="ferny.CaptureExpansion">Common/Mods and Shit/Capture Expansion</li>
 		</v1.7>
 	</loadFolders>
