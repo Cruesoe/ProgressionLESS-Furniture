@@ -245,7 +245,27 @@
                     <value>
                       <researchPrerequisites Inherit="False">
                         <li>Ferny_Column</li>
-                      </researchPrerequisites> 
+                      </researchPrerequisites>
+                    </value>
+                  </nomatch>
+                </Operation>
+
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="Wall"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Wall"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="False">
+                        <li>Ferny_Column</li>
+                      </researchPrerequisites>
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="Wall"]</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="False">
+                        <li>Ferny_Column</li>
+                      </researchPrerequisites>
                     </value>
                   </nomatch>
                 </Operation>

@@ -9,7 +9,7 @@
 				<prerequisites>
 					<li>Smithing</li>
 					<li>Ferny_Floors</li>
-					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="ferny.progressionarsenal,cruesoe.progressionlessarsenal">Ferny_Platform</li>
+					<li MayRequire="vanillaexpanded.vfesecurity,ferny.progressionarsenal">Ferny_Platform</li>
 				</prerequisites>
 			</value>
 		</match>
@@ -20,8 +20,25 @@
 				<prerequisites>
 					<li>Smithing</li>
 					<li>Ferny_Floors</li>
-					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="ferny.progressionarsenal,cruesoe.progressionlessarsenal">Ferny_Platform</li>
+					<li MayRequire="vanillaexpanded.vfesecurity,ferny.progressionarsenal">Ferny_Platform</li>
 				</prerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<!-- Fortified walls can't be built; keep them from inheriting the vanilla wall's research (VFE Tribals' Construction) -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[@Name="AncientFortifiedWall"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[@Name="AncientFortifiedWall"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False" />
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[@Name="AncientFortifiedWall"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False" />
 			</value>
 		</nomatch>
 	</Operation>

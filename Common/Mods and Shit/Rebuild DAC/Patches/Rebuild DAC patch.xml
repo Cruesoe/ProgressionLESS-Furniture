@@ -40,13 +40,66 @@
 
 
 
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="RB_RusticWall"]/label</xpath>
-                    <value>
-                        <label>weak wall</label>
-                    </value>
-                </Operation>
+	<!-- One basic wall in Construction: Medieval Overhaul keeps its log wall and hides the rustic wall, otherwise ReBuild's rustic wall replaces VFE Architect's log wall -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/ThingDef[defName="RB_RusticWall"]/designationCategory</xpath>
+			<match Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="RB_RusticWall"]/designationCategory</xpath>
+				<value>
+					<designationCategory IsNull="True" />
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="RB_RusticWall"]</xpath>
+				<value>
+					<designationCategory IsNull="True" />
+				</value>
+			</nomatch>
+		</match>
+		<nomatch Class="PatchOperationFindMod">
+			<mods>
+				<li>Vanilla Furniture Expanded - Architect</li>
+			</mods>
+			<match Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="VFEArch_LogWall"]/designationCategory</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="VFEArch_LogWall"]/designationCategory</xpath>
+					<value>
+						<designationCategory IsNull="True" />
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="VFEArch_LogWall"]</xpath>
+					<value>
+						<designationCategory IsNull="True" />
+					</value>
+				</nomatch>
+			</match>
+		</nomatch>
+	</Operation>
 
-
-
+	<!-- Fine wood floor builds with the other fine floors; Progression: Core gives it VFE Tribals' Construction -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/TerrainDef[@Name="RB_FinePlankWoodBase"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/TerrainDef[@Name="RB_FinePlankWoodBase"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Floors</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/TerrainDef[@Name="RB_FinePlankWoodBase"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Floors</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
 </Patch>
