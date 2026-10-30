@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- Restraints: restraint chair, rack, pole, cross, pillory, guillotine and X-frame -->
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ResearchProjectDef[defName="CE_RestraintRackResearch" or defName="CE_RestraintPoleResearch" or defName="CE_RestraintCrossResearch" or defName="CE_PilloryResearch" or defName="CE_GuillotineResearch" or defName="CE_XFrameRestraintResearch" or defName="CE_WallMountedCotResearch"]</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="CE_RestraintChairResearch"]/label</xpath>
+				<value>
+					<label>Restraints</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="CE_RestraintChairResearch"]/description</xpath>
+				<value>
+					<description>Build restraint chairs, racks, poles, crosses, X-frames, pillories and guillotines for holding captives.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="CE_RestraintChairResearch"]/baseCost</xpath>
+				<value>
+					<baseCost>600</baseCost>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="CE_RestraintChairResearch"]/prerequisites</xpath>
+				<value>
+					<prerequisites>
+						<li>Ferny_Chair</li>
+					</prerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CE_RestraintRack" or defName="CE_RestraintPole" or defName="CE_RestraintCross" or defName="CE_Pillory" or defName="CE_Guillotine" or defName="CE_XFrameRestraint"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>CE_RestraintChairResearch</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+			<!-- Prisoner housing: cages and wall-mounted cot -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="CE_PrisonerCages"]/label</xpath>
+				<value>
+					<label>Prisoner housing</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="CE_PrisonerCages"]/description</xpath>
+				<value>
+					<description>Build cages and wall-mounted cots for confining captives.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CE_WallMountedCot"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>CE_PrisonerCages</li>
+						<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -526,6 +526,21 @@
   </nomatch>
 </Operation>
 
+<!-- Vanilla hides these from the architect once the player faction is past Neolithic -->
+<Operation Class="PatchOperationConditional">
+  <xpath>/Defs/ThingDef[defName="HoopstoneRing"]/maxTechLevelToBuild</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="HoopstoneRing"]/maxTechLevelToBuild</xpath>
+  </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+  <xpath>/Defs/ThingDef[defName="GameOfUrBoard"]/maxTechLevelToBuild</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="GameOfUrBoard"]/maxTechLevelToBuild</xpath>
+  </match>
+</Operation>
+
 <Operation Class="PatchOperationConditional">
   <xpath>/Defs/ThingDef[defName="BilliardsTable"]/researchPrerequisites</xpath>
   <match Class="PatchOperationReplace">
