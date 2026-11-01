@@ -14,10 +14,10 @@ Integrates furniture and decoration mods into vanilla progression, so each piece
 
 The "LESS" is less research: Progression: Furniture adds up to 88 research projects depending on your mods. This fork groups them into at most 24 themed projects, such as Beds, Table games, Nursery, Electric lights, Chemfuel lights and Electronics, and moves a few items back to the vanilla research they came from, such as Complex furniture. Everything stays in the same era and at the same stage within it, and still needs the other research it did before.
 
-Forked from Progression: Furniture by ferny: https://steamcommunity.com/sharedfiles/filedetails/?id=3771246586
+Forked from Progression: Furniture by ferny.
 Huge thanks to ferny for the original mod and all the Progression work this builds on. Replaces the original; do not use both.
 
-For a really good modpack, check out The Progression Modpack: https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585</description>
+For a really good modpack, check out The Progression Modpack.</description>
   <modDependencies>
     <li>
       <packageId>ferny.betterarchitect</packageId>
@@ -31,11 +31,9 @@ For a really good modpack, check out The Progression Modpack: https://steamcommu
   <loadAfter>
     <li>DSP.HalituisAmaricanous</li>
     <li>Animal.BedsNew</li>
-    <li>Inggo.AdvancedPolyBeds</li>
     <li>Ludeon.RimWorld</li>
     <li>Ludeon.RimWorld.Ideology</li>
     <li>Mumei.Signs</li>
-    <li>ReGrowth.BOTR.Core</li>
     <li>Scurvyez.StevesWalls</li>
     <li>Van.DACrypts</li>
     <li>Wanzi.BigGraves</li>
@@ -45,13 +43,10 @@ For a really good modpack, check out The Progression Modpack: https://steamcommu
     <li>VanillaExpanded.HelixienGas</li>
     <li>VanillaExpanded.VFECore</li>
     <li>VanillaExpanded.VFESpacer</li>
-    <li>cixwow.vfespaceraddon</li>
     <li>dark.signs</li>
     <li>erin.decorations</li>
-    <li>farxmai2.vanillafurnitureexpandedpack</li>
     <li>icepickgma.invisibledisplaycase</li>
     <li>lm.lustechcamostyles</li>
-    <li>lmgginspace.repairbed</li>
     <li>mlie.amnabisflags</li>
     <li>nightmare.museums</li>
     <li>oskarpotocki.vanillafactionsexpanded.settlersmodule</li>
@@ -69,10 +64,37 @@ For a really good modpack, check out The Progression Modpack: https://steamcommu
     <li>xmb.ancienturbanruins.mo</li>
     <li>zylle.clocks</li>
     <li>oskarpotocki.vfe.tribals</li>
-    <!-- <li>ferny.progressioncore</li> -->
     <li>DankPyon.Medieval.Overhaul</li>
     <li>ponpeco.pfkidsroom</li>
     <li>yayoflake.mahjong</li>
-    <!-- <li>Wara.toomanymods</li> -->
+    <li>3hstltd.signs</li>
+    <li>Aelanna.EccentricTech.BeachStuff</li>
+    <li>alt4s.Deck2</li>
+    <li>DanZinagri.BSFurnitureMOGiantBeds</li>
+    <li>det.boglegs</li>
+    <li>drilledhead.MyDogsHouse</li>
+    <li>eeg.architecture</li>
+    <li>Erin.JapaneseFurniture</li>
+    <li>EvilEyeGuy.CustomBaseFramework</li>
+    <li>GM.Nautian.Style</li>
+    <li>Harkon.BiotechAddOn.MedievalDeathrestCoffin</li>
+    <li>Heremeus.MedicalDissection</li>
+    <li>kaitorisenkou.BallGames</li>
+    <li>kongkim.panelsframes</li>
+    <li>ks.flooringfloors</li>
+    <li>Meltup.PolyamoryBeds.Vanilla</li>
+    <li>Misstall.Furniture</li>
+    <li>mo.decorationsluxury</li>
+    <li>MOs.Victoriandecorations</li>
+    <li>Neronix17.Outland.MoreFloors</li>
+    <li>oracle.miscellania</li>
+    <li>oskarpotocki.vfe.classical</li>
+    <li>overpl.AnimalSarcophagus</li>
+    <li>ponpeco.PFSF</li>
+    <li>RedMattis.BSFurniture</li>
+    <li>Resurrectionem.Furniture</li>
+    <li>Rooboid.Paintings.Ex</li>
+    <li>sarg.alphacrafts</li>
+    <li>tug.Minotaur</li>
   </loadAfter>
 </ModMetaData>

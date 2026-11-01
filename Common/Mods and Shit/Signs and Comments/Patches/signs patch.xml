@@ -2,11 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ThingDef[defName="VFEPD_DisplayScreen"]</xpath>
-		<match Class="PatchOperationFindMod">
-			<mods>
-				<li>Signs and Comments Fixed</li>
-			</mods>
-			<match Class="PatchOperationSequence">
+		<match Class="PatchOperationSequence">
 				<operations>
 					<li Class="PatchOperationAdd">
 						<success>Always</success>
@@ -76,10 +72,6 @@
 					</li>
 				</operations>
 			</match>
-			<nomatch Class="PatchOperationSequence">
-				<operations />
-			</nomatch>
-		</match>
 		<nomatch Class="PatchOperationSequence">
 			<operations />
 		</nomatch>

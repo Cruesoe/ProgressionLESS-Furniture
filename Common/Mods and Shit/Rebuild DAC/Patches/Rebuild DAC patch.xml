@@ -45,39 +45,31 @@
 		<mods>
 			<li>Medieval Overhaul</li>
 		</mods>
-		<match Class="PatchOperationConditional">
-			<xpath>Defs/ThingDef[defName="RB_RusticWall"]/designationCategory</xpath>
-			<match Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="RB_RusticWall"]/designationCategory</xpath>
-				<value>
-					<designationCategory IsNull="True" />
-				</value>
-			</match>
-			<nomatch Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="RB_RusticWall"]</xpath>
-				<value>
-					<designationCategory IsNull="True" />
-				</value>
-			</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<VEF.Buildings.HiddenDesignatorsDef>
+					<defName>ProgressionLESSFurniture_RebuildDACMedievalOverhaul_HiddenDesignators</defName>
+					<hiddenDesignators>
+						<li>RB_RusticWall</li>
+					</hiddenDesignators>
+				</VEF.Buildings.HiddenDesignatorsDef>
+			</value>
 		</match>
 		<nomatch Class="PatchOperationFindMod">
 			<mods>
 				<li>Vanilla Furniture Expanded - Architect</li>
 			</mods>
-			<match Class="PatchOperationConditional">
-				<xpath>Defs/ThingDef[defName="VFEArch_LogWall"]/designationCategory</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="VFEArch_LogWall"]/designationCategory</xpath>
-					<value>
-						<designationCategory IsNull="True" />
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="VFEArch_LogWall"]</xpath>
-					<value>
-						<designationCategory IsNull="True" />
-					</value>
-				</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+					<VEF.Buildings.HiddenDesignatorsDef>
+						<defName>ProgressionLESSFurniture_RebuildDACVFEArchitect_HiddenDesignators</defName>
+						<hiddenDesignators>
+							<li>VFEArch_LogWall</li>
+						</hiddenDesignators>
+					</VEF.Buildings.HiddenDesignatorsDef>
+				</value>
 			</match>
 		</nomatch>
 	</Operation>

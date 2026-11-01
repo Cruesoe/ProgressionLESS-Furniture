@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<VEF.Buildings.HiddenDesignatorsDef>
+	<VEF.Buildings.HiddenDesignatorsDef MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
 		<defName>FernyErinJapanesePolyamoryProgFurniture_HiddenDesignators</defName>
 		<hiddenDesignators>
 			<li>Erin_Futon_Triple_A</li>

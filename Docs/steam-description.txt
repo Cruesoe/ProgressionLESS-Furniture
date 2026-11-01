@@ -25,9 +25,9 @@ Everything stays in the same era and at the same stage within it, and still need
 Keeps all of the original's mod support, including:
 [list]
 [*]Royalty, Ideology, Biotech and Odyssey.
-[*]Vanilla Furniture Expanded (with the Additional Pack, Spacer and Spacer Addon), VFE Architect, Art, Classical, Settlers, VE Genetics and VQE Ancients.
+[*]Vanilla Furniture Expanded (with Spacer), VFE Architect, Art, Classical, Settlers, VE Genetics and VQE Ancients.
 [*]Medieval Overhaul, Dark Ages crypts, Big Graves and Sarcophaguses, Medieval Deathrest Coffin and Animal Sarcophagus.
-[*]Big and Small Furniture (with More Medieval Overhaul Beds), Polyamory Beds, Advanced Poly Beds, More Animal Beds, Repair Bed and MyDogsHouse.
+[*]Big and Small Furniture (with More Medieval Overhaul Beds), Polyamory Beds, More Animal Beds and MyDogsHouse.
 [*]ReBuild Doors and Corners, Panels and Frames, Architecture of the Rim, Steve's Walls and Steve's Doors.
 [*]Ponpeco Kids Room and Sci-Fi, Erin's Decorations and Japanese Furniture, Victorian Decorations, Museums and Clocks.
 [*]Appliances Expanded, Helixien Gas, Lanterns Continued, Biomes Fossils, Deck 2, BallGames, Mahjong Table and Beach Stuff.
