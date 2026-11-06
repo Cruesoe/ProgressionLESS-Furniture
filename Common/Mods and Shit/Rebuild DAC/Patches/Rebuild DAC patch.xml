@@ -40,22 +40,11 @@
 
 
 
-	<!-- One basic wall in Construction: Medieval Overhaul keeps its log wall and hides the rustic wall, otherwise ReBuild's rustic wall replaces VFE Architect's log wall -->
+  <!-- Without Medieval Overhaul, ReBuild's rustic wall replaces VFE Architect's log wall -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Medieval Overhaul</li>
 		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs</xpath>
-			<value>
-				<VEF.Buildings.HiddenDesignatorsDef>
-					<defName>ProgressionLESSFurniture_RebuildDACMedievalOverhaul_HiddenDesignators</defName>
-					<hiddenDesignators>
-						<li>RB_RusticWall</li>
-					</hiddenDesignators>
-				</VEF.Buildings.HiddenDesignatorsDef>
-			</value>
-		</match>
 		<nomatch Class="PatchOperationFindMod">
 			<mods>
 				<li>Vanilla Furniture Expanded - Architect</li>
