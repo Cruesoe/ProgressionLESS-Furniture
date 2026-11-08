@@ -67,11 +67,11 @@
 		<researchViewX>11.00</researchViewX>
 		<researchViewY>6.80</researchViewY>
 	</ResearchProjectDef>
-	<ResearchProjectDef MayRequireAnyOf="rebuild.cotr.doorsandcorners,kongkim.panelsframes,eeg.architecture">
+	<ResearchProjectDef>
 		<defName>Ferny_WindowWall</defName>
 		<label>Architecture</label>
-		<description>Build window walls, prison walls, door frames and eaves.</description>
-		<baseCost>300</baseCost>
+		<description>Build ornate doors, window walls, prison walls, door frames and eaves.</description>
+		<baseCost>500</baseCost>
 		<techLevel>Medieval</techLevel>
 		<researchViewX>7.00</researchViewX>
 		<researchViewY>8.20</researchViewY>

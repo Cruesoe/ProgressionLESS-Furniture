@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Hay flap folds into VFE Tribals' Construction; Agriculture moves onto the item -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="MDV_HayFlap"]/researchPrerequisites</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MDV_HayFlap"]</xpath>
+        <value>
+          <researchPrerequisites Inherit="False">
+            <li>VFET_Construction</li>
+            <li>VFET_Agriculture</li>
+          </researchPrerequisites>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Doors come after the hay flap, so they also need Agriculture; runs after every other folder's door patches -->
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Door" or defName="OrnateDoor" or defName="MDV_DoorCurtain" or defName="MDV_SmallOrnateDoor" or defName="MDV_LouverDoor" or defName="DankPyon_RusticDoor" or defName="RB_DoubleDoor" or defName="RB_LargeOrnateDoor" or defName="VFEArch_SingleDoor" or defName="VFEArch_SingleDoor_Flipped" or defName="DoorSaloon"]/researchPrerequisites</xpath>
+    <value>
+      <li>VFET_Agriculture</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName="Autodoors"]/prerequisites</xpath>
+    <value>
+      <li>VFET_Agriculture</li>
+    </value>
+  </Operation>
+</Patch>

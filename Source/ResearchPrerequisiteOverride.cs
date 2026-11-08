@@ -21,6 +21,31 @@ namespace ProgressionLESSFurniture
             SetPrerequisites("VFE_LongPlantPot", "Ferny_PlantPots");
             SetPrerequisites("Table_Counter", "ComplexFurniture", "Ferny_Tables");
             SetPrerequisites("Crib", "Ferny_Crib", "Ferny_RoughCrib");
+            AddToDropdown("Ferny_Floors", "ksFloor_WoodPlank", "ksFloor_WoodParquet");
+        }
+
+        // Adds the project to every terrain in the given designator dropdowns (Flooring Floors' material variants), after all patches have run
+        private static void AddToDropdown(string project, params string[] dropdowns)
+        {
+            ResearchProjectDef projectDef = DefDatabase<ResearchProjectDef>.GetNamedSilentFail(project);
+            if (projectDef == null)
+            {
+                return;
+            }
+
+            foreach (TerrainDef terrain in DefDatabase<TerrainDef>.AllDefsListForReading)
+            {
+                if (terrain.designatorDropdown == null || System.Array.IndexOf(dropdowns, terrain.designatorDropdown.defName) < 0)
+                {
+                    continue;
+                }
+
+                terrain.researchPrerequisites ??= new List<ResearchProjectDef>();
+                if (!terrain.researchPrerequisites.Contains(projectDef))
+                {
+                    terrain.researchPrerequisites.Add(projectDef);
+                }
+            }
         }
 
         // Replaces the building's research with the given projects; skipped if the building or first project is missing, later projects only when loaded
