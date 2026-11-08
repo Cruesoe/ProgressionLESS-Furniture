@@ -10,7 +10,7 @@
 [/list]
 
 [h2]Why "LESS"?[/h2]
-Progression: Furniture adds up to [b]88 research projects[/b] depending on your mods. This fork groups them into [b]at most 24[/b] themed projects:
+Progression: Furniture adds up to [b]95 research projects[/b] depending on your mods. This fork groups them into [b]at most 24[/b] themed projects:
 [list]
 [*][b]Neolithic:[/b] Tables, Chairs, Floors, Carpentry, Beds, Plant pots, Sarcophagus, Games.
 [*][b]Medieval:[/b] Cloth beds, Table games, Nursery, Architecture, Braziers and lamps, Coffin.

@@ -12,7 +12,7 @@
 
 Integrates furniture and decoration mods into vanilla progression, so each piece unlocks in its proper tech era.
 
-The "LESS" is less research: Progression: Furniture adds up to 88 research projects depending on your mods. This fork groups them into at most 24 themed projects, such as Beds, Table games, Nursery, Electric lights, Chemfuel lights and Electronics, and moves a few items back to the vanilla research they came from, such as Complex furniture. Everything stays in the same era and at the same stage within it, and still needs the other research it did before.
+The "LESS" is less research: Progression: Furniture adds up to 95 research projects depending on your mods. This fork groups them into at most 24 themed projects, such as Beds, Table games, Nursery, Electric lights, Chemfuel lights and Electronics, and moves a few items back to the vanilla research they came from, such as Complex furniture. Everything stays in the same era and at the same stage within it, and still needs the other research it did before.
 
 Forked from Progression: Furniture by ferny.
 Huge thanks to ferny for the original mod and all the Progression work this builds on. Replaces the original; do not use both.
@@ -29,6 +29,7 @@ For a really good modpack, check out The Progression Modpack.</description>
     <li>ferny.progressionfurniture</li>
   </incompatibleWith>
   <loadAfter>
+    <li>local.moredoorvariants</li>
     <li>DSP.HalituisAmaricanous</li>
     <li>Animal.BedsNew</li>
     <li>Ludeon.RimWorld</li>

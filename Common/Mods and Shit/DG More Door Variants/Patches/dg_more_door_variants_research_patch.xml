@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Carpentry takes the curtain door's cost -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="Ferny_Column"]/baseCost</xpath>
+    <value>
+      <baseCost>300</baseCost>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="MDV_DoorCurtain"]/researchPrerequisites</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MDV_DoorCurtain"]</xpath>
+        <value>
+          <researchPrerequisites Inherit="False">
+            <li>Ferny_Column</li>
+            <li>Smithing</li>
+          </researchPrerequisites>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="MDV_DoorCurtain"]/label</xpath>
+    <value>
+      <label>curtain door</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="MDV_SmallOrnateDoor"]/researchPrerequisites</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MDV_SmallOrnateDoor"]</xpath>
+        <value>
+          <researchPrerequisites Inherit="False">
+            <li>Ferny_WindowWall</li>
+            <li>Ferny_Column</li>
+          </researchPrerequisites>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="MDV_SmallOrnateDoor"]/label</xpath>
+    <value>
+      <label>ornate door (1x1)</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="MDV_LouverDoor"]/researchPrerequisites</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MDV_LouverDoor"]</xpath>
+        <value>
+          <researchPrerequisites Inherit="False">
+            <li>Ferny_Column</li>
+          </researchPrerequisites>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

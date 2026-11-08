@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VEF.Buildings.HiddenDesignatorsDef>
+    <defName>FernyAlphaBiomesFurniture_HiddenDesignators</defName>
+    <hiddenDesignators>
+      <li>AB_ExoticWall</li>
+      <li>AB_ExoticDoor</li>
+    </hiddenDesignators>
+  </VEF.Buildings.HiddenDesignatorsDef>
+</Defs>
