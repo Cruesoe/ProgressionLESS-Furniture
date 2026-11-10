@@ -14,14 +14,6 @@
 					</researchPrerequisites>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName="BigDA_Coffin"]</xpath>
-				<value>
-					<researchPrerequisites Inherit="False">
-						<li>Ferny_Coffin</li>
-					</researchPrerequisites>
-				</value>
-			</li>
 		</operations>
 	</Operation>
 </Patch>
