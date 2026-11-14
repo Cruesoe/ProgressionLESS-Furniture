@@ -22,7 +22,7 @@
     <xpath>/Defs/ThingDef[defName="RB_RusticWall"]/researchPrerequisites</xpath>
   </Operation>
   <Operation Class="PatchOperationConditional">
-    <xpath>/Defs/ResearchProjectDef[defName="VFET_Construction"]</xpath>
+    <xpath>/Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Construction"]</xpath>
     <match Class="PatchOperationAdd">
       <xpath>/Defs/ThingDef[defName="RB_RusticWall"]</xpath>
       <value>

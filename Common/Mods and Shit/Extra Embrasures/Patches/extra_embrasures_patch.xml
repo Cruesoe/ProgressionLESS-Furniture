@@ -42,7 +42,7 @@
   </Operation>
   <!-- Rustic embrasure (ReBuild) takes the rustic wall's research: VFE Tribals' Construction, or none without VFE Tribals -->
   <Operation Class="PatchOperationConditional">
-    <xpath>/Defs/ResearchProjectDef[defName="VFET_Construction"]</xpath>
+    <xpath>/Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Construction"]</xpath>
     <match Class="PatchOperationConditional">
       <xpath>/Defs/ThingDef[defName="HRK_RusticEmbrasure"]</xpath>
       <match Class="PatchOperationSequence">
