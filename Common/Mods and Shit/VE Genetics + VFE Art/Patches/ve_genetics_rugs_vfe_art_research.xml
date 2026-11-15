@@ -78,24 +78,28 @@
           </value>
         </nomatch>
       </li>
+      <!-- The scaly bear rug only exists when VE Genetics loads its Dinosauria folder -->
       <li Class="PatchOperationConditional">
-        <xpath>/Defs/ThingDef[defName="GR_ScalyBearRug"]/researchPrerequisites</xpath>
-        <match Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="GR_ScalyBearRug"]</xpath>
+        <match Class="PatchOperationConditional">
           <xpath>/Defs/ThingDef[defName="GR_ScalyBearRug"]/researchPrerequisites</xpath>
-          <value>
-            <researchPrerequisites>
-              <li>VFE_Res_Rugs</li>
-            </researchPrerequisites>
-          </value>
+          <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="GR_ScalyBearRug"]/researchPrerequisites</xpath>
+            <value>
+              <researchPrerequisites>
+                <li>VFE_Res_Rugs</li>
+              </researchPrerequisites>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="GR_ScalyBearRug"]</xpath>
+            <value>
+              <researchPrerequisites>
+                <li>VFE_Res_Rugs</li>
+              </researchPrerequisites>
+            </value>
+          </nomatch>
         </match>
-        <nomatch Class="PatchOperationAdd">
-          <xpath>/Defs/ThingDef[defName="GR_ScalyBearRug"]</xpath>
-          <value>
-            <researchPrerequisites>
-              <li>VFE_Res_Rugs</li>
-            </researchPrerequisites>
-          </value>
-        </nomatch>
       </li>
     </operations>
   </Operation>

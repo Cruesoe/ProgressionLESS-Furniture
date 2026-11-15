@@ -753,13 +753,6 @@
 		</Operation>
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="DankPyon_HideTentWall"]/label</xpath>
-		<value>
-			<label>patchwall</label>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DankPyon_RusticTorchLamp"]/label</xpath>
 		<value>
 			<label>standing torch</label>
