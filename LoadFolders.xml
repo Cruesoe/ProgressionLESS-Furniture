@@ -7,6 +7,7 @@
     <li>Common</li>
     <li>1.6</li>
     <li IfModActive="oels.nanamewalls">Common/Mods and Shit/NANAME Walls</li>
+    <li IfModActive="oels.nanamedoors">Common/Mods and Shit/NANAME Doors</li>
     <li IfModActiveAll="local.moredoorvariants,ponpeco.PFSF">Common/Mods and Shit/DG More Door Variants + Ponpeco Sci-Fi</li>
     <li IfModActive="sarg.alphabiomes">Common/Mods and Shit/Alpha Biomes</li>
     <li IfModActive="local.moredoorvariants">Common/Mods and Shit/DG More Door Variants</li>
@@ -122,6 +123,7 @@
     <li>Common</li>
     <li>1.7</li>
     <li IfModActive="oels.nanamewalls">Common/Mods and Shit/NANAME Walls</li>
+    <li IfModActive="oels.nanamedoors">Common/Mods and Shit/NANAME Doors</li>
     <li IfModActiveAll="local.moredoorvariants,ponpeco.PFSF">Common/Mods and Shit/DG More Door Variants + Ponpeco Sci-Fi</li>
     <li IfModActive="sarg.alphabiomes">Common/Mods and Shit/Alpha Biomes</li>
     <li IfModActive="local.moredoorvariants">Common/Mods and Shit/DG More Door Variants</li>
