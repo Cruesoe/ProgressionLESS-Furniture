@@ -29,6 +29,7 @@ For a really good modpack, check out The Progression Modpack.</description>
     <li>ferny.progressionfurniture</li>
   </incompatibleWith>
   <loadAfter>
+    <li>Koni.Misc.Toxlamps</li>
     <li>oels.nanamewalls</li>
     <li>local.moredoorvariants</li>
     <li>DSP.HalituisAmaricanous</li>

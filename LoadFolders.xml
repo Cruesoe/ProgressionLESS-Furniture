@@ -48,7 +48,9 @@
     <li IfModActiveAll="DankPyon.Medieval.Overhaul,Mumei.Signs">Common/Mods and Shit/Medieval Overhaul + Signs and Comments</li>
     <li IfModActiveAll="DankPyon.Medieval.Overhaul,VanillaExpanded.VFEArt">Common/Mods and Shit/Medieval Overhaul + VFE Art</li>
     <li IfModActive="Misstall.Furniture">Common/Mods and Shit/Misstall Furniture</li>
+    <li IfModActive="Resurrectionem.Furniture">Common/Mods and Shit/RR Furniture Rapture</li>
     <li IfModActiveAll="Resurrectionem.Furniture,Ludeon.RimWorld.Royalty">Common/Mods and Shit/RR Furniture Rapture + Royalty</li>
+    <li IfModActiveAll="Koni.Misc.Toxlamps,Ludeon.RimWorld.Biotech">Common/Mods and Shit/Toxlamps</li>
     <li IfModActive="rebuild.cotr.doorsandcorners">Common/Mods and Shit/Rebuild DAC</li>
     <li IfModActive="rimsenal.Sophian">Common/Mods and Shit/Rimsenal Sophian</li>
     <li IfModActive="rimsenal.techist">Common/Mods and Shit/Rimsenal Techist</li>
@@ -160,7 +162,9 @@
     <li IfModActiveAll="DankPyon.Medieval.Overhaul,Mumei.Signs">Common/Mods and Shit/Medieval Overhaul + Signs and Comments</li>
     <li IfModActiveAll="DankPyon.Medieval.Overhaul,VanillaExpanded.VFEArt">Common/Mods and Shit/Medieval Overhaul + VFE Art</li>
     <li IfModActive="Misstall.Furniture">Common/Mods and Shit/Misstall Furniture</li>
+    <li IfModActive="Resurrectionem.Furniture">Common/Mods and Shit/RR Furniture Rapture</li>
     <li IfModActiveAll="Resurrectionem.Furniture,Ludeon.RimWorld.Royalty">Common/Mods and Shit/RR Furniture Rapture + Royalty</li>
+    <li IfModActiveAll="Koni.Misc.Toxlamps,Ludeon.RimWorld.Biotech">Common/Mods and Shit/Toxlamps</li>
     <li IfModActive="rebuild.cotr.doorsandcorners">Common/Mods and Shit/Rebuild DAC</li>
     <li IfModActive="rimsenal.Sophian">Common/Mods and Shit/Rimsenal Sophian</li>
     <li IfModActive="rimsenal.techist">Common/Mods and Shit/Rimsenal Techist</li>
