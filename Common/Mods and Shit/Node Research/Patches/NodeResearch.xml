@@ -3,15 +3,15 @@
 
   <!-- Node Research: mark the first furniture projects as research foundations -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="Ferny_Tables" or defName="Ferny_Floors"]</xpath>
+    <xpath>Defs/ResearchProjectDef[defName="Ferny_Tables" or defName="Ferny_Column"]</xpath>
     <value>
       <li Class="BetterResearchMenu.ResearchFoundationExtension"></li>
     </value>
   </Operation>
 
-  <!-- Node Research: icon for Floors -->
+  <!-- Node Research: icon for Carpentry -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="Ferny_Floors"]</xpath>
+    <xpath>Defs/ResearchProjectDef[defName="Ferny_Column"]</xpath>
     <value>
       <li Class="BetterResearchMenu.ResearchIconExtension">
         <texPath>ResearchIcons/Floors</texPath>
