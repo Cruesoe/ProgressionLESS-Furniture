@@ -6,18 +6,18 @@
 [list]
 [*]Integrates furniture and decoration mods into vanilla progression, so each piece unlocks in its proper tech era.
 [*]Floors, beds, tables, chairs, games, lights and electronics all have a place in the research tree, from tribal bedrolls to spacer furniture.
-[*]Works with the rest of the Progression suite: other Progression mods that build on Tables, Chairs or Floors keep their links.
+[*]Works with the rest of the Progression suite: other Progression mods that build on Tables or Floors keep their links.
 [/list]
 
 [h2]Why "LESS"?[/h2]
-Progression: Furniture adds up to [b]95 research projects[/b] depending on your mods. This fork groups them into [b]at most 24[/b] themed projects:
+Progression: Furniture adds up to [b]101 research projects[/b] depending on your mods. This fork groups them into [b]at most 22[/b] themed projects:
 [list]
-[*][b]Neolithic:[/b] Tables, Chairs, Floors, Carpentry, Beds, Plant pots, Sarcophagus, Games.
+[*][b]Neolithic:[/b] Carpentry, Basic furniture, Floors, Plant pots, Sarcophagus, Games.
 [*][b]Medieval:[/b] Cloth beds, Table games, Nursery, Architecture, Braziers and lamps, Coffin.
 [*][b]Industrial:[/b] Comfort furniture, Gaming tables, Chemfuel lights, Sports, Alarm clocks, Electric lights, Display light, Electronics, Advanced electronics.
 [*][b]Spacer:[/b] Spacer doors and frames.
 [/list]
-Beds covers bedrolls, simple beds and animal beds, including Vanilla Furniture Expanded's simple beds. A few items return to the vanilla or mod research they came from, such as dressers and clocks to Complex furniture, and spacer furniture to Vanilla Furniture Expanded's Spacer research.
+Basic furniture covers tables, chairs, bedrolls, simple beds and animal beds, including Vanilla Furniture Expanded's simple beds. A few items return to the vanilla or mod research they came from, such as dressers and clocks to Complex furniture, and spacer furniture to Vanilla Furniture Expanded's Spacer research.
 
 Everything stays in the same era and at the same stage within it, and still needs the other research it did before.
 

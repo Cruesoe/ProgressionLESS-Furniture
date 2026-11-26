@@ -3,27 +3,27 @@
 
 <!-- July 5 2026 -->
 
-	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ResearchProjectDef[defName="CarpetMaking"]/prerequisites</xpath>
-			<match Class="PatchOperationReplace">
-			<xpath>/Defs/ResearchProjectDef[defName="CarpetMaking"]/prerequisites</xpath>
-				<value>
-					<prerequisites>
-						<li>DankPyon_TextileSpinning</li>
-						<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
-					</prerequisites>
-				</value>
-			</match>
-			<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ResearchProjectDef[defName="CarpetMaking"]</xpath>
-				<value>
-					<prerequisites>
-						<li>DankPyon_TextileSpinning</li>
-						<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
-					</prerequisites>
-				</value>
-			</nomatch>
-	</Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ResearchProjectDef[defName="CarpetMaking"]/prerequisites</xpath>
+      <match Class="PatchOperationReplace">
+      <xpath>/Defs/ResearchProjectDef[defName="CarpetMaking"]/prerequisites</xpath>
+        <value>
+          <prerequisites>
+            <li>DankPyon_TextileSpinning</li>
+            <li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+          </prerequisites>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ResearchProjectDef[defName="CarpetMaking"]</xpath>
+        <value>
+          <prerequisites>
+            <li>DankPyon_TextileSpinning</li>
+            <li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+          </prerequisites>
+        </value>
+      </nomatch>
+  </Operation>
 
 
 <!-- Ferny_Tables research prerequisites -->
@@ -71,105 +71,105 @@
 
 <!-- Ferny wicker/straw bed research progression -->
 
-	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="DankPyon_BedWicker"]/researchPrerequisites</xpath>
-		<match Class="PatchOperationReplace">
-			<xpath>/Defs/ThingDef[defName="DankPyon_BedWicker"]/researchPrerequisites</xpath>
-			<value>
-				<researchPrerequisites Inherit="False">
-					<li>Ferny_Bedroll</li>
-				</researchPrerequisites>
-			</value>
-		</match>
-		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="DankPyon_BedWicker"]</xpath>
-			<value>
-				<researchPrerequisites Inherit="False">
-					<li>Ferny_Bedroll</li>
-				</researchPrerequisites>
-			</value>
-		</nomatch>
-	</Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="DankPyon_BedWicker"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="DankPyon_BedWicker"]/researchPrerequisites</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_Tables</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="DankPyon_BedWicker"]</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_Tables</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
 
-	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="DankPyon_BedWickerDouble"]/researchPrerequisites</xpath>
-		<match Class="PatchOperationReplace">
-			<xpath>/Defs/ThingDef[defName="DankPyon_BedWickerDouble"]/researchPrerequisites</xpath>
-			<value>
-				<researchPrerequisites Inherit="False">
-					<li>Ferny_Bedroll</li>
-				</researchPrerequisites>
-			</value>
-		</match>
-		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="DankPyon_BedWickerDouble"]</xpath>
-			<value>
-				<researchPrerequisites Inherit="False">
-					<li>Ferny_Bedroll</li>
-				</researchPrerequisites>
-			</value>
-		</nomatch>
-	</Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="DankPyon_BedWickerDouble"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="DankPyon_BedWickerDouble"]/researchPrerequisites</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_Tables</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="DankPyon_BedWickerDouble"]</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_Tables</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
 
-	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="DankPyon_StrawBed"]/researchPrerequisites</xpath>
-		<match Class="PatchOperationReplace">
-			<xpath>/Defs/ThingDef[defName="DankPyon_StrawBed"]/researchPrerequisites</xpath>
-			<value>
-				<researchPrerequisites Inherit="False">
-					<li>Ferny_Bedroll</li>
-				</researchPrerequisites>
-			</value>
-		</match>
-		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="DankPyon_StrawBed"]</xpath>
-			<value>
-				<researchPrerequisites Inherit="False">
-					<li>Ferny_Bedroll</li>
-				</researchPrerequisites>
-			</value>
-		</nomatch>
-	</Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="DankPyon_StrawBed"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="DankPyon_StrawBed"]/researchPrerequisites</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_Tables</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="DankPyon_StrawBed"]</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_Tables</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
 
-	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="DankPyon_StrawBedDouble"]/researchPrerequisites</xpath>
-		<match Class="PatchOperationReplace">
-			<xpath>/Defs/ThingDef[defName="DankPyon_StrawBedDouble"]/researchPrerequisites</xpath>
-			<value>
-				<researchPrerequisites Inherit="False">
-					<li>Ferny_Bedroll</li>
-				</researchPrerequisites>
-			</value>
-		</match>
-		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="DankPyon_StrawBedDouble"]</xpath>
-			<value>
-				<researchPrerequisites Inherit="False">
-					<li>Ferny_Bedroll</li>
-				</researchPrerequisites>
-			</value>
-		</nomatch>
-	</Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="DankPyon_StrawBedDouble"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="DankPyon_StrawBedDouble"]/researchPrerequisites</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_Tables</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="DankPyon_StrawBedDouble"]</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>Ferny_Tables</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
 
-	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ResearchProjectDef[defName="Ferny_ClothBeds"]/prerequisites</xpath>
-		<match Class="PatchOperationReplace">
-			<xpath>/Defs/ResearchProjectDef[defName="Ferny_ClothBeds"]/prerequisites</xpath>
-			<value>
-				<prerequisites>
-					<li>Ferny_Bedroll</li>
-				</prerequisites>
-			</value>
-		</match>
-		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ResearchProjectDef[defName="Ferny_ClothBeds"]</xpath>
-			<value>
-				<prerequisites>
-					<li>Ferny_Bedroll</li>
-				</prerequisites>
-			</value>
-		</nomatch>
-	</Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ResearchProjectDef[defName="Ferny_ClothBeds"]/prerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/ResearchProjectDef[defName="Ferny_ClothBeds"]/prerequisites</xpath>
+      <value>
+        <prerequisites>
+          <li>Ferny_Tables</li>
+        </prerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ResearchProjectDef[defName="Ferny_ClothBeds"]</xpath>
+      <value>
+        <prerequisites>
+          <li>Ferny_Tables</li>
+        </prerequisites>
+      </value>
+    </nomatch>
+  </Operation>
 
 <Operation Class="PatchOperationConditional">
   <xpath>/Defs/ThingDef[defName="Dankpyon_CupAndDice"]/researchPrerequisites</xpath>
@@ -234,855 +234,855 @@
 
 <!-- Medieval Overhaul rugs architect menu -->
 
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationRemove">
-				<xpath>/Defs/ThingDef[@Name="DankPyon_PatchedRugBase"]/recipeMaker</xpath>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[@Name="DankPyon_FurnitureBaseRug"]/designationCategory</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[@Name="DankPyon_FurnitureBaseRug"]/designationCategory</xpath>
-					<value>
-						<designationCategory>Ferny_DecoRugs</designationCategory>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[@Name="DankPyon_FurnitureBaseRug"]</xpath>
-					<value>
-						<designationCategory>Ferny_DecoRugs</designationCategory>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[@Name="DankPyon_FurnitureBaseRug"]/terrainAffordanceNeeded</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[@Name="DankPyon_FurnitureBaseRug"]/terrainAffordanceNeeded</xpath>
-					<value>
-						<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[@Name="DankPyon_FurnitureBaseRug"]</xpath>
-					<value>
-						<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather1x1c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather1x1c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>1500</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather1x1c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>1500</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather1x2c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather1x2c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>3000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather1x2c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>3000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather2x2c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather2x2c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>6000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather2x2c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>6000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather2x4c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather2x4c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>12000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather2x4c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>12000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather3x3c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather3x3c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>13500</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather3x3c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>13500</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth1x1c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth1x1c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>1500</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth1x1c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>1500</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth1x2c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth1x2c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>3000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth1x2c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>3000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth2x2c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth2x2c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>6000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth2x2c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>6000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth2x4c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth2x4c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>12000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth2x4c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>12000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth3x3c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth3x3c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>18000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth3x3c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>18000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_Lys2x3c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_Lys2x3c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>18000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_Lys2x3c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>18000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_LongLys2x4c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_LongLys2x4c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>24000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_LongLys2x4c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>24000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_LongLys3x3c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_LongLys3x3c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>27000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_LongLys3x3c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>27000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_GrandCross3x3c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_GrandCross3x3c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>72000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_GrandCross3x3c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>72000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugLoot_Lys_DeepGreen2x3c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugLoot_Lys_DeepGreen2x3c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>9000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugLoot_Lys_DeepGreen2x3c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>9000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugLoot_Diamond_DeepGreen2x4c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugLoot_Diamond_DeepGreen2x4c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>12000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugLoot_Diamond_DeepGreen2x4c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>12000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugHyena2x2c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugHyena2x2c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>7000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugHyena2x2c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>7000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugWolfTimber2x2c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugWolfTimber2x2c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>7000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugWolfTimber2x2c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>7000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugWolfArctic2x2c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugWolfArctic2x2c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>7000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugWolfArctic2x2c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>7000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugCougar2x2c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugCougar2x2c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>7000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugCougar2x2c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>7000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugPanther2x2c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPanther2x2c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>7000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPanther2x2c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>7000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugGrizzlyBear3x3c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugGrizzlyBear3x3c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>12000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugGrizzlyBear3x3c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>12000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugPolarBear3x3c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPolarBear3x3c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>12000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugPolarBear3x3c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>12000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugRox3x3c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugRox3x3c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>12000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugRox3x3c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>12000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugThrumbo3x3c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugThrumbo3x3c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>15000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugThrumbo3x3c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>15000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugDaer4x4c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugDaer4x4c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>15000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugDaer4x4c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>15000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="DankPyon_RugHuman1x2c"]/statBases/WorkToMake</xpath>
-				<match Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugHuman1x2c"]/statBases/WorkToMake</xpath>
-					<value>
-						<WorkToBuild>7000</WorkToBuild>
-					</value>
-				</match>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="DankPyon_RugHuman1x2c"]/statBases</xpath>
-					<value>
-						<WorkToBuild>7000</WorkToBuild>
-					</value>
-				</nomatch>
-			</li>
-		</operations>
-	</Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[@Name="DankPyon_PatchedRugBase"]/recipeMaker</xpath>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[@Name="DankPyon_FurnitureBaseRug"]/designationCategory</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[@Name="DankPyon_FurnitureBaseRug"]/designationCategory</xpath>
+          <value>
+            <designationCategory>Ferny_DecoRugs</designationCategory>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[@Name="DankPyon_FurnitureBaseRug"]</xpath>
+          <value>
+            <designationCategory>Ferny_DecoRugs</designationCategory>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[@Name="DankPyon_FurnitureBaseRug"]/terrainAffordanceNeeded</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[@Name="DankPyon_FurnitureBaseRug"]/terrainAffordanceNeeded</xpath>
+          <value>
+            <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[@Name="DankPyon_FurnitureBaseRug"]</xpath>
+          <value>
+            <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather1x1c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather1x1c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>1500</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather1x1c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>1500</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather1x2c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather1x2c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>3000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather1x2c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>3000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather2x2c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather2x2c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>6000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather2x2c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>6000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather2x4c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather2x4c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>12000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather2x4c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>12000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather3x3c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather3x3c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>13500</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Leather3x3c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>13500</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth1x1c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth1x1c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>1500</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth1x1c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>1500</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth1x2c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth1x2c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>3000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth1x2c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>3000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth2x2c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth2x2c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>6000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth2x2c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>6000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth2x4c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth2x4c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>12000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth2x4c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>12000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth3x3c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth3x3c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>18000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPatched_Cloth3x3c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>18000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_Lys2x3c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_Lys2x3c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>18000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_Lys2x3c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>18000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_LongLys2x4c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_LongLys2x4c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>24000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_LongLys2x4c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>24000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_LongLys3x3c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_LongLys3x3c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>27000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_LongLys3x3c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>27000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_GrandCross3x3c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_GrandCross3x3c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>72000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugRoyal_GrandCross3x3c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>72000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugLoot_Lys_DeepGreen2x3c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugLoot_Lys_DeepGreen2x3c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>9000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugLoot_Lys_DeepGreen2x3c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>9000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugLoot_Diamond_DeepGreen2x4c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugLoot_Diamond_DeepGreen2x4c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>12000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugLoot_Diamond_DeepGreen2x4c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>12000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugHyena2x2c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugHyena2x2c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>7000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugHyena2x2c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>7000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugWolfTimber2x2c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugWolfTimber2x2c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>7000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugWolfTimber2x2c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>7000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugWolfArctic2x2c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugWolfArctic2x2c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>7000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugWolfArctic2x2c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>7000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugCougar2x2c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugCougar2x2c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>7000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugCougar2x2c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>7000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugPanther2x2c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPanther2x2c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>7000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPanther2x2c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>7000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugGrizzlyBear3x3c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugGrizzlyBear3x3c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>12000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugGrizzlyBear3x3c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>12000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugPolarBear3x3c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPolarBear3x3c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>12000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugPolarBear3x3c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>12000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugRox3x3c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugRox3x3c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>12000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugRox3x3c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>12000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugThrumbo3x3c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugThrumbo3x3c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>15000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugThrumbo3x3c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>15000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugDaer4x4c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugDaer4x4c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>15000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugDaer4x4c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>15000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_RugHuman1x2c"]/statBases/WorkToMake</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugHuman1x2c"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToBuild>7000</WorkToBuild>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DankPyon_RugHuman1x2c"]/statBases</xpath>
+          <value>
+            <WorkToBuild>7000</WorkToBuild>
+          </value>
+        </nomatch>
+      </li>
+    </operations>
+  </Operation>
 
 
 
 
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ResearchProjectDef[defName="DankPyon_RusticFurniture"]/label</xpath>
-		<value>
-			<label>Medieval furniture</label>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="DankPyon_RoyalBookshelf"]/label</xpath>
-		<value>
-			<label>royal research shelf</label>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="DankPyon_RusticBookshelf"]/label</xpath>
-		<value>
-			<label>research shelf</label>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="DankPyon_RusticBookshelf1x2c"]/label</xpath>
-		<value>
-			<label>large research shelf</label>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="DankPyon_Bed_Rustic_Red"]/label</xpath>
-		<value>
-			<label>comfy red bed</label>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="DankPyon_Bed_Rustic_Green"]/label</xpath>
-		<value>
-			<label>comfy green bed</label>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="DankPyon_Bed_Rustic_Blue"]/label</xpath>
-		<value>
-			<label>comfy blue bed</label>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="DankPyon_Bed_RusticDouble_Red"]/label</xpath>
-		<value>
-			<label>comfy red double bed</label>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="DankPyon_Bed_RusticDouble_Green"]/label</xpath>
-		<value>
-			<label>comfy green double bed</label>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="DankPyon_Bed_RusticDouble_Blue"]/label</xpath>
-		<value>
-			<label>comfy blue double bed</label>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="DankPyon_RusticTorchLamp"]/label</xpath>
-		<value>
-			<label>standing torch</label>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ResearchProjectDef[defName="DankPyon_CandleMaking"]/label</xpath>
-		<value>
-			<label>candles</label>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="DankPyon_Candle"]/label</xpath>
-		<value>
-			<label>candle (tallow)</label>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="DankPyon_Candle_Beeswax"]/label</xpath>
-		<value>
-			<label>candle (beeswax)</label>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="DankPyon_Candles"]/label</xpath>
-		<value>
-			<label>candles (tallow)</label>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
-		<xpath>Defs/ThingDef[defName="DankPyon_Candles_Beeswax"]/label</xpath>
-		<value>
-			<label>candles (beeswax)</label>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName="DankPyon_RoyalArmchair"]</xpath>
-		<value>
-			<costList>
-				<Gold>30</Gold>
-				</costList>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="DankPyon_RoyalThrone"]/costStuffCount</xpath>
-		<value>
-			<costStuffCount>100</costStuffCount>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName="DankPyon_RoyalThrone"]</xpath>
-		<value>
-			<costList>
-				<Gold>25</Gold>
-				<DankPyon_Silk>50</DankPyon_Silk>
-				</costList>
-			</value>
-		</Operation>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Vanilla Furniture Expanded</li>
-			</mods>
-		<match Class="PatchOperationSequence">
-			<operations>
-				<li Class="PatchOperationReplace">
-					<success>Always</success>
-					<xpath>Defs/ThingDef[defName="DankPyon_RoyalArmchair"]/researchPrerequisites</xpath>
-					<value>
-						<researchPrerequisites>
-							<li>MF_RoyalFurniture</li>
-							</researchPrerequisites>
-						</value>
-					</li>
-				<li Class="PatchOperationReplace">
-					<success>Always</success>
-					<xpath>Defs/ThingDef[defName="DankPyon_RoyalDresser"]/researchPrerequisites</xpath>
-					<value>
-						<researchPrerequisites>
-							<li>MF_RoyalFurniture</li>
-							</researchPrerequisites>
-						</value>
-					</li>
-				<li Class="PatchOperationReplace">
-					<success>Always</success>
-					<xpath>Defs/ThingDef[defName="DankPyon_RoyalEndTable"]/researchPrerequisites</xpath>
-					<value>
-						<researchPrerequisites>
-							<li>MF_RoyalFurniture</li>
-							</researchPrerequisites>
-						</value>
-					</li>
-				<li Class="PatchOperationReplace">
-					<success>Always</success>
-					<xpath>Defs/ThingDef[defName="DankPyon_RoyalTudorBed"]/researchPrerequisites</xpath>
-					<value>
-						<researchPrerequisites>
-							<li>MF_RoyalFurniture</li>
-							</researchPrerequisites>
-						</value>
-					</li>
-				<li Class="PatchOperationReplace">
-					<success>Always</success>
-					<xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x2c"]/researchPrerequisites</xpath>
-					<value>
-						<researchPrerequisites>
-							<li>MF_RoyalFurniture</li>
-							</researchPrerequisites>
-						</value>
-					</li>
-				<li Class="PatchOperationReplace">
-					<success>Always</success>
-					<xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x4c"]/researchPrerequisites</xpath>
-					<value>
-						<researchPrerequisites>
-							<li>MF_RoyalFurniture</li>
-							</researchPrerequisites>
-						</value>
-					</li>
-				<li Class="PatchOperationReplace">
-					<success>Always</success>
-					<xpath>Defs/ThingDef[defName="DankPyon_RoyalArmchair"]/researchPrerequisites</xpath>
-					<value>
-						<researchPrerequisites>
-							<li>MF_RoyalFurniture</li>
-							</researchPrerequisites>
-						</value>
-					</li>
-				<li Class="PatchOperationReplace">
-					<success>Always</success>
-					<xpath>Defs/ThingDef[defName="DankPyon_RoyalBookshelf"]/researchPrerequisites</xpath>
-					<value>
-						<researchPrerequisites>
-							<li>MF_RoyalFurniture</li>
-							</researchPrerequisites>
-						</value>
-					</li>
-				<li Class="PatchOperationReplace">
-					<success>Always</success>
-					<xpath>Defs/ThingDef[defName="DankPyon_RoyalCloset"]/researchPrerequisites</xpath>
-					<value>
-						<researchPrerequisites>
-							<li>MF_RoyalFurniture</li>
-							</researchPrerequisites>
-						</value>
-					</li>
-				<li Class="PatchOperationReplace">
-					<success>Always</success>
-					<xpath>Defs/ThingDef[defName="DankPyon_RoyalThrone"]/researchPrerequisites</xpath>
-					<value>
-						<researchPrerequisites>
-							<li>MF_RoyalFurniture</li>
-							</researchPrerequisites>
-						</value>
-					</li>
-				<li Class="PatchOperationRemove">
-					<success>Always</success>
-					<xpath>Defs/ResearchProjectDef[defName="DankPyon_RoyalRusticFurniture"]</xpath>
-				</li>
-				<li Class="PatchOperationRemove">
-					<success>Always</success>
-					<xpath>Defs/ResearchProjectDef[defName="MF_BasicFurniture"]</xpath>
-					</li>
-				<li Class="PatchOperationRemove">
-					<success>Always</success>
-					<xpath>Defs/ThingDef/researchPrerequisites/li[text()="DankPyon_RoyalRusticFurniture"]</xpath>
-					</li>
-				<li Class="PatchOperationRemove">
-					<success>Always</success>
-					<xpath>Defs/ThingDef/researchPrerequisites/li[text()="MF_BasicFurniture"]</xpath>
-					</li>
-				<li Class="PatchOperationRemove">
-					<success>Always</success>
-					<xpath>Defs/ResearchProjectDef/prerequisites/li[text()="MF_BasicFurniture"]</xpath>
-					</li>
-				</operations>
-			</match>
-		</Operation>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Vanilla Furniture Expanded - Architect</li>
-			</mods>
-		<match Class="PatchOperationSequence">
-			<operations>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs</xpath>
-					<value>
-						<VEF.Buildings.HiddenDesignatorsDef>
-							<defName>ProgressionLESSFurniture_MedievalOverhaulVFEArchitect_HiddenDesignators</defName>
-							<hiddenDesignators>
-								<li>VFEArch_LogWall</li>
-							</hiddenDesignators>
-						</VEF.Buildings.HiddenDesignatorsDef>
-					</value>
-				</li>
-				</operations>
-			</match>
-		</Operation>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Vanilla Factions Expanded - Empire</li>
-			</mods>
-		<match Class="PatchOperationSequence">
-			<operations>
-				<li Class="PatchOperationReplace">
-					<success>Always</success>
-					<xpath>Defs/ThingDef[defName="VFEE_Candelabra"]/label</xpath>
-					<value>
-						<label>electric candelabra</label>
-						</value>
-					</li>
-				</operations>
-			</match>
-		</Operation>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Vanilla Factions Expanded - Medieval 2</li>
-			</mods>
-		<match Class="PatchOperationSequence">
-			<operations>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs</xpath>
-					<value>
-						<ReplaceLib.ReplacerDef>
-							<defName>MedievalOverhaul_Aesthetics_VFEMedieval2</defName>
-							<replacers>
-								<li>
-									<replace>VFEM2_CastleWall</replace>
-									<with>DankPyon_CastleWall</with>
-									</li>
-								<li>
-									<replace>DankPyon_BedFur</replace>
-									<with>VFEM2_FurBed</with>
-									</li>
-								<li>
-									<replace>DankPyon_BedFurDouble</replace>
-									<with>VFEM2_DoubleFurBed</with>
-									</li>
-								</replacers>
-							</ReplaceLib.ReplacerDef>
-						</value>
-					</li>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs</xpath>
-					<value>
-						<VEF.Buildings.HiddenDesignatorsDef>
-							<defName>ProgressionLESSFurniture_MedievalOverhaulVFEMedieval2_HiddenDesignators</defName>
-							<hiddenDesignators>
-								<li>VFEM2_LowCastleWall</li>
-							</hiddenDesignators>
-						</VEF.Buildings.HiddenDesignatorsDef>
-					</value>
-				</li>
-				<li Class="PatchOperationReplace">
-					<success>Always</success>
-					<xpath>Defs/ThingDef[defName="DankPyon_TentWall"]/label</xpath>
-					<value>
-						<label>pressed cloth wall</label>
-						</value>
-					</li>
-				<li Class="PatchOperationReplace">
-					<success>Always</success>
-					<xpath>Defs/ThingDef[defName="DankPyon_TentWall"]/costStuffCount</xpath>
-					<value>
-						<costStuffCount>10</costStuffCount>
-						</value>
-					</li>
-				</operations>
-			</match>
-		</Operation>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Vanilla Furniture Expanded - Architect</li>
-			</mods>
-		<match Class="PatchOperationSequence">
-			<operations>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs</xpath>
-					<value>
-						<ReplaceLib.ReplacerDef>
-							<defName>MedievalOverhaul_Aesthetics_VFEArchitect</defName>
-							<replacers>
-								<li>
-									<replace>VFEArch_LogWall</replace>
-									<with>DankPyon_LogWall</with>
-									</li>
-								</replacers>
-							</ReplaceLib.ReplacerDef>
-						</value>
-					</li>
-				</operations>
-			</match>
-		</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[@Name="DankPyon_BasicBedBase"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
-		<order>Append</order>
-		<value>
-			<li>DankPyon_RusticTallEndTable</li>
-			</value>
-	</Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="DankPyon_RusticFurniture"]/label</xpath>
+    <value>
+      <label>Medieval furniture</label>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DankPyon_RoyalBookshelf"]/label</xpath>
+    <value>
+      <label>royal research shelf</label>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DankPyon_RusticBookshelf"]/label</xpath>
+    <value>
+      <label>research shelf</label>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DankPyon_RusticBookshelf1x2c"]/label</xpath>
+    <value>
+      <label>large research shelf</label>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DankPyon_Bed_Rustic_Red"]/label</xpath>
+    <value>
+      <label>comfy red bed</label>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DankPyon_Bed_Rustic_Green"]/label</xpath>
+    <value>
+      <label>comfy green bed</label>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DankPyon_Bed_Rustic_Blue"]/label</xpath>
+    <value>
+      <label>comfy blue bed</label>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DankPyon_Bed_RusticDouble_Red"]/label</xpath>
+    <value>
+      <label>comfy red double bed</label>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DankPyon_Bed_RusticDouble_Green"]/label</xpath>
+    <value>
+      <label>comfy green double bed</label>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DankPyon_Bed_RusticDouble_Blue"]/label</xpath>
+    <value>
+      <label>comfy blue double bed</label>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DankPyon_RusticTorchLamp"]/label</xpath>
+    <value>
+      <label>standing torch</label>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="DankPyon_CandleMaking"]/label</xpath>
+    <value>
+      <label>candles</label>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DankPyon_Candle"]/label</xpath>
+    <value>
+      <label>candle (tallow)</label>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DankPyon_Candle_Beeswax"]/label</xpath>
+    <value>
+      <label>candle (beeswax)</label>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DankPyon_Candles"]/label</xpath>
+    <value>
+      <label>candles (tallow)</label>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DankPyon_Candles_Beeswax"]/label</xpath>
+    <value>
+      <label>candles (beeswax)</label>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="DankPyon_RoyalArmchair"]</xpath>
+    <value>
+      <costList>
+        <Gold>30</Gold>
+        </costList>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="DankPyon_RoyalThrone"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>100</costStuffCount>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="DankPyon_RoyalThrone"]</xpath>
+    <value>
+      <costList>
+        <Gold>25</Gold>
+        <DankPyon_Silk>50</DankPyon_Silk>
+        </costList>
+      </value>
+    </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded</li>
+      </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>Defs/ThingDef[defName="DankPyon_RoyalArmchair"]/researchPrerequisites</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>MF_RoyalFurniture</li>
+              </researchPrerequisites>
+            </value>
+          </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>Defs/ThingDef[defName="DankPyon_RoyalDresser"]/researchPrerequisites</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>MF_RoyalFurniture</li>
+              </researchPrerequisites>
+            </value>
+          </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>Defs/ThingDef[defName="DankPyon_RoyalEndTable"]/researchPrerequisites</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>MF_RoyalFurniture</li>
+              </researchPrerequisites>
+            </value>
+          </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>Defs/ThingDef[defName="DankPyon_RoyalTudorBed"]/researchPrerequisites</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>MF_RoyalFurniture</li>
+              </researchPrerequisites>
+            </value>
+          </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x2c"]/researchPrerequisites</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>MF_RoyalFurniture</li>
+              </researchPrerequisites>
+            </value>
+          </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x4c"]/researchPrerequisites</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>MF_RoyalFurniture</li>
+              </researchPrerequisites>
+            </value>
+          </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>Defs/ThingDef[defName="DankPyon_RoyalArmchair"]/researchPrerequisites</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>MF_RoyalFurniture</li>
+              </researchPrerequisites>
+            </value>
+          </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>Defs/ThingDef[defName="DankPyon_RoyalBookshelf"]/researchPrerequisites</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>MF_RoyalFurniture</li>
+              </researchPrerequisites>
+            </value>
+          </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>Defs/ThingDef[defName="DankPyon_RoyalCloset"]/researchPrerequisites</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>MF_RoyalFurniture</li>
+              </researchPrerequisites>
+            </value>
+          </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>Defs/ThingDef[defName="DankPyon_RoyalThrone"]/researchPrerequisites</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>MF_RoyalFurniture</li>
+              </researchPrerequisites>
+            </value>
+          </li>
+        <li Class="PatchOperationRemove">
+          <success>Always</success>
+          <xpath>Defs/ResearchProjectDef[defName="DankPyon_RoyalRusticFurniture"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <success>Always</success>
+          <xpath>Defs/ResearchProjectDef[defName="MF_BasicFurniture"]</xpath>
+          </li>
+        <li Class="PatchOperationRemove">
+          <success>Always</success>
+          <xpath>Defs/ThingDef/researchPrerequisites/li[text()="DankPyon_RoyalRusticFurniture"]</xpath>
+          </li>
+        <li Class="PatchOperationRemove">
+          <success>Always</success>
+          <xpath>Defs/ThingDef/researchPrerequisites/li[text()="MF_BasicFurniture"]</xpath>
+          </li>
+        <li Class="PatchOperationRemove">
+          <success>Always</success>
+          <xpath>Defs/ResearchProjectDef/prerequisites/li[text()="MF_BasicFurniture"]</xpath>
+          </li>
+        </operations>
+      </match>
+    </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Architect</li>
+      </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <VEF.Buildings.HiddenDesignatorsDef>
+              <defName>ProgressionLESSFurniture_MedievalOverhaulVFEArchitect_HiddenDesignators</defName>
+              <hiddenDesignators>
+                <li>VFEArch_LogWall</li>
+              </hiddenDesignators>
+            </VEF.Buildings.HiddenDesignatorsDef>
+          </value>
+        </li>
+        </operations>
+      </match>
+    </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Empire</li>
+      </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>Defs/ThingDef[defName="VFEE_Candelabra"]/label</xpath>
+          <value>
+            <label>electric candelabra</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Medieval 2</li>
+      </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <ReplaceLib.ReplacerDef>
+              <defName>MedievalOverhaul_Aesthetics_VFEMedieval2</defName>
+              <replacers>
+                <li>
+                  <replace>VFEM2_CastleWall</replace>
+                  <with>DankPyon_CastleWall</with>
+                  </li>
+                <li>
+                  <replace>DankPyon_BedFur</replace>
+                  <with>VFEM2_FurBed</with>
+                  </li>
+                <li>
+                  <replace>DankPyon_BedFurDouble</replace>
+                  <with>VFEM2_DoubleFurBed</with>
+                  </li>
+                </replacers>
+              </ReplaceLib.ReplacerDef>
+            </value>
+          </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <VEF.Buildings.HiddenDesignatorsDef>
+              <defName>ProgressionLESSFurniture_MedievalOverhaulVFEMedieval2_HiddenDesignators</defName>
+              <hiddenDesignators>
+                <li>VFEM2_LowCastleWall</li>
+              </hiddenDesignators>
+            </VEF.Buildings.HiddenDesignatorsDef>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>Defs/ThingDef[defName="DankPyon_TentWall"]/label</xpath>
+          <value>
+            <label>pressed cloth wall</label>
+            </value>
+          </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>Defs/ThingDef[defName="DankPyon_TentWall"]/costStuffCount</xpath>
+          <value>
+            <costStuffCount>10</costStuffCount>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Architect</li>
+      </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <ReplaceLib.ReplacerDef>
+              <defName>MedievalOverhaul_Aesthetics_VFEArchitect</defName>
+              <replacers>
+                <li>
+                  <replace>VFEArch_LogWall</replace>
+                  <with>DankPyon_LogWall</with>
+                  </li>
+                </replacers>
+              </ReplaceLib.ReplacerDef>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="DankPyon_BasicBedBase"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <order>Append</order>
+    <value>
+      <li>DankPyon_RusticTallEndTable</li>
+      </value>
+  </Operation>
 
 
 
 
 
 <!-- Trestle follows the tables chain -->
-	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ResearchProjectDef[defName="DankPyon_Lumber"]/prerequisites/li[text()="Ferny_Tables"]</xpath>
-		<nomatch Class="PatchOperationConditional">
-			<xpath>/Defs/ResearchProjectDef[defName="DankPyon_Lumber"]/prerequisites</xpath>
-			<match Class="PatchOperationAdd">
-				<xpath>/Defs/ResearchProjectDef[defName="DankPyon_Lumber"]/prerequisites</xpath>
-				<value>
-					<li>Ferny_Tables</li>
-				</value>
-			</match>
-			<nomatch Class="PatchOperationAdd">
-				<xpath>/Defs/ResearchProjectDef[defName="DankPyon_Lumber"]</xpath>
-				<value>
-					<prerequisites>
-						<li>Ferny_Tables</li>
-					</prerequisites>
-				</value>
-			</nomatch>
-		</nomatch>
-	</Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ResearchProjectDef[defName="DankPyon_Lumber"]/prerequisites/li[text()="Ferny_Tables"]</xpath>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>/Defs/ResearchProjectDef[defName="DankPyon_Lumber"]/prerequisites</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ResearchProjectDef[defName="DankPyon_Lumber"]/prerequisites</xpath>
+        <value>
+          <li>Ferny_Tables</li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ResearchProjectDef[defName="DankPyon_Lumber"]</xpath>
+        <value>
+          <prerequisites>
+            <li>Ferny_Tables</li>
+          </prerequisites>
+        </value>
+      </nomatch>
+    </nomatch>
+  </Operation>
 
 
 </Patch>
