@@ -14,6 +14,7 @@
     <prerequisites>
       <li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
       <li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
+      <li>Ferny_Column</li>
     </prerequisites>
   </ResearchProjectDef>
   <ResearchProjectDef>
@@ -97,6 +98,7 @@
     <researchViewY>7.50</researchViewY>
     <prerequisites>
       <li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+      <li>Ferny_Column</li>
     </prerequisites>
     <tags>
       <li>ClassicStart</li>
