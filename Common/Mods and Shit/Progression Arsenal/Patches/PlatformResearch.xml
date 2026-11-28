@@ -8,7 +8,7 @@
       <xpath>Defs/ResearchProjectDef[defName="Ferny_Platform"]/prerequisites</xpath>
       <value>
         <prerequisites>
-          <li>Ferny_Floors</li>
+          <li>Ferny_Column</li>
         </prerequisites>
       </value>
     </match>

@@ -7,6 +7,7 @@
     <li>Common</li>
     <li>1.6</li>
     <li IfModActive="oels.nanamewalls">Common/Mods and Shit/NANAME Walls</li>
+    <li IfModActive="oels.nanamedoors">Common/Mods and Shit/NANAME Doors</li>
     <li IfModActiveAll="local.moredoorvariants,ponpeco.PFSF">Common/Mods and Shit/DG More Door Variants + Ponpeco Sci-Fi</li>
     <li IfModActive="sarg.alphabiomes">Common/Mods and Shit/Alpha Biomes</li>
     <li IfModActive="local.moredoorvariants">Common/Mods and Shit/DG More Door Variants</li>
@@ -48,7 +49,10 @@
     <li IfModActiveAll="DankPyon.Medieval.Overhaul,Mumei.Signs">Common/Mods and Shit/Medieval Overhaul + Signs and Comments</li>
     <li IfModActiveAll="DankPyon.Medieval.Overhaul,VanillaExpanded.VFEArt">Common/Mods and Shit/Medieval Overhaul + VFE Art</li>
     <li IfModActive="Misstall.Furniture">Common/Mods and Shit/Misstall Furniture</li>
+    <li IfModActive="Resurrectionem.Furniture">Common/Mods and Shit/RR Furniture Rapture</li>
     <li IfModActiveAll="Resurrectionem.Furniture,Ludeon.RimWorld.Royalty">Common/Mods and Shit/RR Furniture Rapture + Royalty</li>
+    <li IfModActiveAll="Koni.Misc.Toxlamps,Ludeon.RimWorld.Biotech">Common/Mods and Shit/Toxlamps</li>
+    <li IfModActive="Dubwise.DubsBadHygiene">Common/Mods and Shit/Dubs Bad Hygiene</li>
     <li IfModActive="rebuild.cotr.doorsandcorners">Common/Mods and Shit/Rebuild DAC</li>
     <li IfModActive="rimsenal.Sophian">Common/Mods and Shit/Rimsenal Sophian</li>
     <li IfModActive="rimsenal.techist">Common/Mods and Shit/Rimsenal Techist</li>
@@ -119,6 +123,7 @@
     <li>Common</li>
     <li>1.7</li>
     <li IfModActive="oels.nanamewalls">Common/Mods and Shit/NANAME Walls</li>
+    <li IfModActive="oels.nanamedoors">Common/Mods and Shit/NANAME Doors</li>
     <li IfModActiveAll="local.moredoorvariants,ponpeco.PFSF">Common/Mods and Shit/DG More Door Variants + Ponpeco Sci-Fi</li>
     <li IfModActive="sarg.alphabiomes">Common/Mods and Shit/Alpha Biomes</li>
     <li IfModActive="local.moredoorvariants">Common/Mods and Shit/DG More Door Variants</li>
@@ -160,7 +165,10 @@
     <li IfModActiveAll="DankPyon.Medieval.Overhaul,Mumei.Signs">Common/Mods and Shit/Medieval Overhaul + Signs and Comments</li>
     <li IfModActiveAll="DankPyon.Medieval.Overhaul,VanillaExpanded.VFEArt">Common/Mods and Shit/Medieval Overhaul + VFE Art</li>
     <li IfModActive="Misstall.Furniture">Common/Mods and Shit/Misstall Furniture</li>
+    <li IfModActive="Resurrectionem.Furniture">Common/Mods and Shit/RR Furniture Rapture</li>
     <li IfModActiveAll="Resurrectionem.Furniture,Ludeon.RimWorld.Royalty">Common/Mods and Shit/RR Furniture Rapture + Royalty</li>
+    <li IfModActiveAll="Koni.Misc.Toxlamps,Ludeon.RimWorld.Biotech">Common/Mods and Shit/Toxlamps</li>
+    <li IfModActive="Dubwise.DubsBadHygiene">Common/Mods and Shit/Dubs Bad Hygiene</li>
     <li IfModActive="rebuild.cotr.doorsandcorners">Common/Mods and Shit/Rebuild DAC</li>
     <li IfModActive="rimsenal.Sophian">Common/Mods and Shit/Rimsenal Sophian</li>
     <li IfModActive="rimsenal.techist">Common/Mods and Shit/Rimsenal Techist</li>

@@ -195,7 +195,7 @@
                     <xpath>/Defs/ThingDef[defName="AnimalSleepingBox"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Bedroll</li>
+                        <li>Ferny_Tables</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -203,7 +203,7 @@
                     <xpath>/Defs/ThingDef[defName="AnimalSleepingBox"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Bedroll</li>
+                        <li>Ferny_Tables</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -215,7 +215,7 @@
                     <xpath>/Defs/ThingDef[defName="AnimalBed"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Bedroll</li>
+                        <li>Ferny_Tables</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -223,7 +223,7 @@
                     <xpath>/Defs/ThingDef[defName="AnimalBed"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Bedroll</li>
+                        <li>Ferny_Tables</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -355,7 +355,7 @@
                 </Operation>
 
 
-<!-- Ferny_Bedroll research prerequisite -->
+<!-- Beds: Basic furniture research prerequisite -->
 
                 <Operation Class="PatchOperationConditional">
                   <xpath>/Defs/ThingDef[defName="Bedroll"]/researchPrerequisites</xpath>
@@ -363,7 +363,7 @@
                     <xpath>/Defs/ThingDef[defName="Bedroll"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_Bedroll</li>
+                        <li>Ferny_Tables</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -371,7 +371,7 @@
                     <xpath>/Defs/ThingDef[defName="Bedroll"]</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_Bedroll</li>
+                        <li>Ferny_Tables</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -386,7 +386,7 @@
                       <xpath>/Defs/ThingDef[defName="BedrollDouble"]/researchPrerequisites</xpath>
                       <value>
                         <researchPrerequisites Inherit="False">
-                          <li>Ferny_Bedroll</li>
+                          <li>Ferny_Tables</li>
                         </researchPrerequisites> 
                       </value>
                     </match>
@@ -394,7 +394,7 @@
                       <xpath>/Defs/ThingDef[defName="BedrollDouble"]</xpath>
                       <value>
                         <researchPrerequisites Inherit="False">
-                          <li>Ferny_Bedroll</li>
+                          <li>Ferny_Tables</li>
                         </researchPrerequisites> 
                       </value>
                     </nomatch>
@@ -402,7 +402,7 @@
                 </Operation>
 
 
-<!-- Ferny_Chair research prerequisite -->
+<!-- Chairs: Basic furniture research prerequisite -->
 
                 <Operation Class="PatchOperationConditional">
                   <xpath>/Defs/ThingDef[defName="DiningChair"]/researchPrerequisites</xpath>
@@ -410,7 +410,7 @@
                     <xpath>/Defs/ThingDef[defName="DiningChair"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Chair</li>
+                        <li>Ferny_Tables</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -418,7 +418,7 @@
                     <xpath>/Defs/ThingDef[defName="DiningChair"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Chair</li>
+                        <li>Ferny_Tables</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -431,7 +431,7 @@
                     <xpath>/Defs/ThingDef[defName="Stool"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Chair</li>
+                        <li>Ferny_Tables</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -439,7 +439,7 @@
                     <xpath>/Defs/ThingDef[defName="Stool"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Chair</li>
+                        <li>Ferny_Tables</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>

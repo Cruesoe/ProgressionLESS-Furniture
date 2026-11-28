@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Dubs Bad Hygiene: stone mosaic tiles need Carpentry and Stonecutting, the steel mosaic tile Carpentry and Smithing -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/TerrainDef[@Name="DBHMosaicBase"]/researchPrerequisites</xpath>
+        <value>
+          <researchPrerequisites Inherit="False">
+            <li>Ferny_Column</li>
+            <li>Stonecutting</li>
+          </researchPrerequisites>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/TerrainDef[defName="DBHMosaicTile"]/researchPrerequisites</xpath>
+        <value>
+          <researchPrerequisites Inherit="False">
+            <li>Ferny_Column</li>
+            <li>Smithing</li>
+          </researchPrerequisites>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>

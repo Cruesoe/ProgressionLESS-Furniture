@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Brewing needs Basic furniture -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="Brewing"]/prerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ResearchProjectDef[defName="Brewing"]/prerequisites</xpath>
+      <value>
+        <li>Ferny_Tables</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ResearchProjectDef[defName="Brewing"]</xpath>
+      <value>
+        <prerequisites>
+          <li>Ferny_Tables</li>
+        </prerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

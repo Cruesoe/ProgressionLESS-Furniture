@@ -14,6 +14,7 @@
     <prerequisites>
       <li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
       <li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
+      <li>Ferny_Column</li>
     </prerequisites>
   </ResearchProjectDef>
   <ResearchProjectDef>
@@ -37,7 +38,7 @@
     <researchViewX>3.00</researchViewX>
     <researchViewY>7.50</researchViewY>
     <prerequisites>
-      <li>Ferny_Chair</li>
+      <li>Ferny_Tables</li>
     </prerequisites>
     <tags>
       <li>ClassicStart</li>
@@ -45,41 +46,9 @@
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>Ferny_Tables</defName>
-    <label>Tables</label>
-    <description>Build tables for colonists to gather, eat, and spend time around.</description>
-    <baseCost>300</baseCost>
-    <techLevel>Neolithic</techLevel>
-    <researchViewX>1.00</researchViewX>
-    <researchViewY>6.80</researchViewY>
-    <prerequisites>
-      <li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
-      <li>Ferny_Column</li>
-    </prerequisites>
-    <tags>
-      <li>ClassicStart</li>
-    </tags>
-  </ResearchProjectDef>
-  <ResearchProjectDef>
-    <defName>Ferny_Bedroll</defName>
-    <label>Beds</label>
-    <description>Build bedrolls, simple beds, and sleeping boxes and beds for animals.</description>
-    <baseCost>300</baseCost>
-    <techLevel>Neolithic</techLevel>
-    <researchViewX>1.00</researchViewX>
-    <researchViewY>8.20</researchViewY>
-    <prerequisites>
-      <li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
-      <li>Ferny_Column</li>
-    </prerequisites>
-    <tags>
-      <li>ClassicStart</li>
-    </tags>
-  </ResearchProjectDef>
-  <ResearchProjectDef>
-    <defName>Ferny_Chair</defName>
-    <label>Chairs</label>
-    <description>Build chairs, stools, benches and sitting cushions.</description>
-    <baseCost>150</baseCost>
+    <label>Basic furniture</label>
+    <description>Build tables, chairs, stools, benches and sitting cushions, bedrolls and simple beds, and sleeping boxes and beds for animals.</description>
+    <baseCost>500</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>1.00</researchViewX>
     <researchViewY>7.50</researchViewY>
@@ -107,28 +76,13 @@
   <ResearchProjectDef>
     <defName>Ferny_Column</defName>
     <label>Carpentry</label>
-    <description>Work wood into walls, doors, columns and the joints that furniture is built from.</description>
+    <description>Work wood into walls, doors, columns, floors, bridges and decks, and the joints that furniture is built from.</description>
     <baseCost>200</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>0.00</researchViewX>
     <researchViewY>7.50</researchViewY>
     <prerequisites>
       <li MayRequire="oskarpotocki.vfe.tribals">VFET_Construction</li>
-    </prerequisites>
-    <tags>
-      <li>ClassicStart</li>
-    </tags>
-  </ResearchProjectDef>
-  <ResearchProjectDef>
-    <defName>Ferny_Floors</defName>
-    <label>Floors</label>
-    <description>Build floors, bridges and decks.</description>
-    <baseCost>200</baseCost>
-    <techLevel>Neolithic</techLevel>
-    <researchViewX>0.00</researchViewX>
-    <researchViewY>6.80</researchViewY>
-    <prerequisites>
-      <li>Ferny_Column</li>
     </prerequisites>
     <tags>
       <li>ClassicStart</li>
@@ -144,6 +98,7 @@
     <researchViewY>7.50</researchViewY>
     <prerequisites>
       <li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+      <li>Ferny_Column</li>
     </prerequisites>
     <tags>
       <li>ClassicStart</li>
