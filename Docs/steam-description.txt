@@ -19,7 +19,7 @@ Progression: Furniture adds up to [b]101 research projects[/b] depending on your
 [/list]
 Carpentry covers walls, doors, floors, bridges and decks, and Basic furniture covers tables, chairs, bedrolls, simple beds and animal beds, including Vanilla Furniture Expanded's simple beds. A few items return to the vanilla or mod research they came from, such as dressers and clocks to Complex furniture, and spacer furniture to Vanilla Furniture Expanded's Spacer research.
 
-Stone and metal floors still need Stonecutting or Smithing. Everything else stays in the same era and at the same stage within it, and still needs the other research it did before.
+Stone and metal floors still need Stonecutting or Smithing, and Smithing needs Basic furniture. Everything else stays in the same era and at the same stage within it, and still needs the other research it did before.
 
 [h2]Compatibility[/h2]
 Keeps all of the original's mod support, including:

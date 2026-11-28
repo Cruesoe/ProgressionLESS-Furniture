@@ -4,6 +4,6 @@
 
 Integrates furniture and decoration mods into vanilla progression, so each piece unlocks in its proper tech era.
 
-The "LESS" is less research: Progression: Furniture adds up to 101 research projects depending on your mods. This fork groups them into at most 21 themed projects, such as Basic furniture, Table games, Nursery, Electric lights, Chemfuel lights and Electronics, and moves a few items back to the vanilla research they came from, such as Complex furniture. Floors, bridges and decks come with Carpentry. Everything else stays in the same era and at the same stage within it, and still needs the other research it did before.
+The "LESS" is less research: Progression: Furniture adds up to 101 research projects depending on your mods. This fork groups them into at most 21 themed projects, such as Basic furniture, Table games, Nursery, Electric lights, Chemfuel lights and Electronics, and moves a few items back to the vanilla research they came from, such as Complex furniture. Floors, bridges and decks come with Carpentry, and Smithing needs Basic furniture. Everything else stays in the same era and at the same stage within it, and still needs the other research it did before.
 
 Forked from [Progression: Furniture](https://steamcommunity.com/sharedfiles/filedetails/?id=3771246586) by ferny. Huge thanks to ferny for the original mod and all the Progression work this builds on. For a really good modpack, check out [The Progression Modpack](https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585).
